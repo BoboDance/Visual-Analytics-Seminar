@@ -1,0 +1,78 @@
+\begin{thebibliography}{1}
+
+\bibitem{ichikawa:2002}
+Y.~Ichikawa, T.~Tsunawaki, I.~Fujishiro, and H.~Yoon.
+\newblock A visualization environment for multiple daytime stock price
+  predictions.
+\newblock In {\em Proceedings of the 2nd VIIP International Conferences on
+  Visualization, Imaging and Image Processing, Malaga, Spain}, 2002.
+
+\bibitem{maciejewski:2011}
+\href{https://doi.org/10.1109/TVCG.2010.82}{R.~Maciejewski, R.~Hafen,
+  S.~Rudolph, S.~G. Larew, M.~A. Mitchell, W.~S. Cleveland, and D.~S. Ebert}.
+\newblock \href{https://doi.org/10.1109/TVCG.2010.82}{Forecasting hotspots: A
+  predictive analytics approach}.
+\newblock \href{https://doi.org/10.1109/TVCG.2010.82}{{\em IEEE Transactions on
+  Visualization and Computer Graphics}},
+  \href{https://doi.org/10.1109/TVCG.2010.82}{17(4):440--453},
+  \href{https://doi.org/10.1109/TVCG.2010.82}{April 2011}.
+  \href{https://doi.org/10.1109/TVCG.2010.82}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}TVCG\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2010\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}82}}}
+
+
+\bibitem{maciejewski:2008}
+\href{https://doi.org/10.1109/VAST.2008.4677354}{R.~Maciejewski, S.~Rudolph,
+  R.~Hafen, A.~Abusalah, M.~Yakout, M.~Ouzzani, W.~S. Cleveland, S.~J. Grannis,
+  M.~Wade, and D.~S. Ebert}.
+\newblock \href{https://doi.org/10.1109/VAST.2008.4677354}{Understanding
+  syndromic hotspots - a visual analytics approach}.
+\newblock \href{https://doi.org/10.1109/VAST.2008.4677354}{In {\em 2008 IEEE
+  Symposium on Visual Analytics Science and Technology}},
+  \href{https://doi.org/10.1109/VAST.2008.4677354}{pp. 35--42},
+  \href{https://doi.org/10.1109/VAST.2008.4677354}{Oct 2008}.
+  \href{https://doi.org/10.1109/VAST.2008.4677354}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}VAST\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2008\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}4677354}}}
+
+
+\bibitem{maciejewski:2007}
+\href{https://doi.org/10.1109/VAST.2007.4388993}{R.~Maciejewski, B.~Tyner,
+  Y.~Jang, C.~Zheng, R.~V. Nehme, D.~S. Ebert, W.~S. Cleveland, M.~Ouzzani,
+  S.~J. Grannis, and L.~T. Glickman}.
+\newblock \href{https://doi.org/10.1109/VAST.2007.4388993}{Lahva: Linked
+  animal-human health visual analytics}.
+\newblock \href{https://doi.org/10.1109/VAST.2007.4388993}{In {\em 2007 IEEE
+  Symposium on Visual Analytics Science and Technology}},
+  \href{https://doi.org/10.1109/VAST.2007.4388993}{pp. 27--34},
+  \href{https://doi.org/10.1109/VAST.2007.4388993}{Oct 2007}.
+  \href{https://doi.org/10.1109/VAST.2007.4388993}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}VAST\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2007\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}4388993}}}
+
+
+\bibitem{steed:2017}
+C.~A. Steed, W.~Halsey, R.~Dehoff, S.~L. Yoder, V.~Paquit, and S.~Powers.
+\newblock Falcon: Visual analysis of large, irregularly sampled, and
+  multivariate time series data in additive manufacturing.
+\newblock {\em Computers \& Graphics}, 63:50--64, 2017.
+
+\bibitem{yue:2009}
+J.~Yue, A.~Raja, D.~Liu, X.~Wang, and W.~Ribarsky.
+\newblock A blackboard-based approach towards predictive analytics.
+\newblock In {\em AAAI Spring Symposium: Technosocial Predictive Analytics}, p.
+  154, 2009.
+
+\end{thebibliography}
