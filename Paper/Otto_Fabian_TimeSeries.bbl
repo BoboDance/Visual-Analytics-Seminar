@@ -1,4 +1,42 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{boegel:2013}
+Visual analytics for model selection in time series analysis.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics,
+  Special Issue "VIS 2013"}, 19, 2013.
+
+\bibitem{box:1976}
+G.~Box and G.~M. Jenkins.
+\newblock {\em Time Series Analysis: Forecasting and Control}.
+\newblock Holden-Day, 1976.
+
+\bibitem{buono:2005}
+P.~Buono, A.~Aris, C.~Plaisant, A.~Khella, and B.~Shneiderman.
+\newblock Interactive pattern search in time series.
+\newblock In {\em Visualization and Data Analysis 2005}, vol. 5669, pp.
+  175--187. International Society for Optics and Photonics, 2005.
+
+\bibitem{buono:2007}
+P.~Buono, C.~Plaisant, A.~Simeone, A.~Aris, G.~Shmueli, and W.~Jank.
+\newblock Similarity-based forecasting with simultaneous previews: A river plot
+  interface for time series forecasting.
+\newblock In {\em Information Visualization, 2007. IV'07. 11th International
+  Conference}, pp. 191--196. IEEE, 2007.
+
+\bibitem{Hochheiser:2004}
+\href{https://doi.org/10.1145/993176.993177}{H.~Hochheiser and B.~Shneiderman}.
+\newblock \href{https://doi.org/10.1145/993176.993177}{Dynamic query tools for
+  time series data sets: Timebox widgets for interactive exploration}.
+\newblock \href{https://doi.org/10.1145/993176.993177}{{\em Information
+  Visualization}}, \href{https://doi.org/10.1145/993176.993177}{3(1):1--18},
+  \href{https://doi.org/10.1145/993176.993177}{Mar. 2004}.
+  \href{https://doi.org/10.1145/993176.993177}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1145\discretionary{/}{%
+}{/}993176\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}993177}}}
+
 
 \bibitem{ichikawa:2002}
 Y.~Ichikawa, T.~Tsunawaki, I.~Fujishiro, and H.~Yoon.
@@ -25,6 +63,13 @@ Y.~Ichikawa, T.~Tsunawaki, I.~Fujishiro, and H.~Yoon.
 }{.}\hspace{.4pt}82}}}
 
 
+\bibitem{maciejewski:2010}
+R.~Maciejewski, S.~Rudolph, R.~Hafen, A.~Abusalah, M.~Yakout, M.~Ouzzani, W.~S.
+  Cleveland, S.~J. Grannis, and D.~S. Ebert.
+\newblock A visual analytics approach to understanding spatiotemporal hotspots.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  16(2):205--220, 2010.
+
 \bibitem{maciejewski:2008}
 \href{https://doi.org/10.1109/VAST.2008.4677354}{R.~Maciejewski, S.~Rudolph,
   R.~Hafen, A.~Abusalah, M.~Yakout, M.~Ouzzani, W.~S. Cleveland, S.~J. Grannis,
@@ -45,34 +90,23 @@ Y.~Ichikawa, T.~Tsunawaki, I.~Fujishiro, and H.~Yoon.
 
 
 \bibitem{maciejewski:2007}
-\href{https://doi.org/10.1109/VAST.2007.4388993}{R.~Maciejewski, B.~Tyner,
-  Y.~Jang, C.~Zheng, R.~V. Nehme, D.~S. Ebert, W.~S. Cleveland, M.~Ouzzani,
-  S.~J. Grannis, and L.~T. Glickman}.
-\newblock \href{https://doi.org/10.1109/VAST.2007.4388993}{Lahva: Linked
-  animal-human health visual analytics}.
-\newblock \href{https://doi.org/10.1109/VAST.2007.4388993}{In {\em 2007 IEEE
-  Symposium on Visual Analytics Science and Technology}},
-  \href{https://doi.org/10.1109/VAST.2007.4388993}{pp. 27--34},
-  \href{https://doi.org/10.1109/VAST.2007.4388993}{Oct 2007}.
-  \href{https://doi.org/10.1109/VAST.2007.4388993}
-{doi: {{%
-10\hspace{.1pt}\discretionary{.}{%
-}{.}\hspace{.4pt}1109\discretionary{/}{%
-}{/}VAST\hspace{.1pt}\discretionary{.}{%
-}{.}\hspace{.4pt}2007\hspace{.1pt}\discretionary{.}{%
-}{.}\hspace{.4pt}4388993}}}
+R.~Maciejewski, B.~Tyner, Y.~Jang, C.~Zheng, R.~V. Nehme, D.~S. Ebert, W.~S.
+  Cleveland, M.~Ouzzani, S.~J. Grannis, and L.~T. Glickman.
+\newblock Lahva: Linked animal-human health visual analytics.
+\newblock In {\em 2007 IEEE Symposium on Visual Analytics Science and
+  Technology}, pp. 27--34, Oct 2007.
 
+\bibitem{malik:2014}
+A.~Malik, R.~Maciejewski, S.~Towers, S.~McCullough, and D.~S. Ebert.
+\newblock Proactive spatiotemporal resource allocation and predictive visual
+  analytics for community policing and law enforcement.
+\newblock {\em IEEE transactions on visualization and computer graphics},
+  20(12):1863--1872, 2014.
 
 \bibitem{steed:2017}
 C.~A. Steed, W.~Halsey, R.~Dehoff, S.~L. Yoder, V.~Paquit, and S.~Powers.
 \newblock Falcon: Visual analysis of large, irregularly sampled, and
   multivariate time series data in additive manufacturing.
 \newblock {\em Computers \& Graphics}, 63:50--64, 2017.
-
-\bibitem{yue:2009}
-J.~Yue, A.~Raja, D.~Liu, X.~Wang, and W.~Ribarsky.
-\newblock A blackboard-based approach towards predictive analytics.
-\newblock In {\em AAAI Spring Symposium: Technosocial Predictive Analytics}, p.
-  154, 2009.
 
 \end{thebibliography}
