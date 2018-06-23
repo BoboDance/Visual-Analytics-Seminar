@@ -1,0 +1,113 @@
+%%colors
+\definecolor{mygray}{RGB}{208,208,208}
+\definecolor{mymagenta}{RGB}{226,0,116}
+\definecolor{forestgreen}{RGB}{34,139,34}%83, 146, 6
+\definecolor{winered}{RGB}{153, 0, 18}
+\definecolor{azureblue}{RGB}{0, 127, 255}
+\definecolor{gold}{RGB}{212,175,55}
+
+
+%%Dokument Icon
+\def\foldedpaper#1{
+\tikz[scale=#1,line width={#1*1pt}]{
+\def\a{1.41} % relative height
+\def\b{0.2} % relative height/width of corner
+\def\c{0.1} % relative margin width (on either side)
+\def\d{0.05} % vertical offset of lines
+\def\N{6} % number of lines
+\draw (0,0)
+-- ++(-1,0)
+-- ++(0,\a)
+-- ++(1-\b,0)
+-- ++(\b,-\b)
+-- cycle;
+\foreach \lnum in {1,...,\N}{
+\pgfmathsetmacro\yline{\a-\d-\lnum*\a/(\N+1)}
+\draw (-1+\c,\yline) -- (-\c,\yline);
+}
+\draw[fill=white] (0,\a-\b) -- ++(-\b,0) -- ++ (0,\b);
+}
+}
+
+\makeatletter
+\pgfdeclareshape{document}{
+\inheritsavedanchors[from=rectangle] % this is nearly a rectangle
+\inheritanchorborder[from=rectangle]
+\inheritanchor[from=rectangle]{center}
+\inheritanchor[from=rectangle]{north}
+\inheritanchor[from=rectangle]{south}
+\inheritanchor[from=rectangle]{west}
+\inheritanchor[from=rectangle]{east}
+% ... and possibly more
+\backgroundpath{% this is new
+% store lower right in xa/ya and upper right in xb/yb
+\southwest \pgf@xa=\pgf@x \pgf@ya=\pgf@y
+\northeast \pgf@xb=\pgf@x \pgf@yb=\pgf@y
+% compute corner of ‘‘flipped page’’
+\pgf@xc=\pgf@xb \advance\pgf@xc by-5pt % this should be a parameter
+\pgf@yc=\pgf@yb \advance\pgf@yc by-5pt
+% construct main path
+\pgfpathmoveto{\pgfpoint{\pgf@xa}{\pgf@ya}}
+\pgfpathlineto{\pgfpoint{\pgf@xa}{\pgf@yb}}
+\pgfpathlineto{\pgfpoint{\pgf@xc}{\pgf@yb}}
+\pgfpathlineto{\pgfpoint{\pgf@xb}{\pgf@yc}}
+\pgfpathlineto{\pgfpoint{\pgf@xb}{\pgf@ya}}
+\pgfpathclose
+% add little corner
+\pgfpathmoveto{\pgfpoint{\pgf@xc}{\pgf@yb}}
+\pgfpathlineto{\pgfpoint{\pgf@xc}{\pgf@yc}}
+\pgfpathlineto{\pgfpoint{\pgf@xb}{\pgf@yc}}
+\pgfpathlineto{\pgfpoint{\pgf@xc}{\pgf@yc}}
+}
+}
+\makeatother
+
+\tikzstyle{doc}=[%
+draw,
+thick,
+align=center,
+color=black,
+shape=document,
+minimum width=20mm,
+minimum height=15mm,
+]
+
+\tikzstyle{l}=[%
+draw,
+-latex',
+thick
+]
+
+\begin{tikzpicture}
+\node [doc,draw=forestgreen, ultra thick, fill=black!10, minimum width = 4.2cm, minimum height = 1.5cm] (enc) {Verschlüsselter\\ Inhalt};
+\node [doc, left = 5.2cm of enc, fill=black!10, minimum width = 4.2cm, minimum height = 1.5cm] (conf) {Vertraulicher\\ Inhalt};
+
+\node[draw, rectangle, rounded corners, fill=lightgray, minimum height = 1cm] (rms) at (-.55,-2.8) {RMS Policy};
+
+\node[inner sep=0pt, right = .1cm of rms] (aes){\includegraphics[scale=0.32]{images/AESKey.png}};
+
+\begin{scope}[on background layer]
+\node[rectangle, rounded corners, draw=winered, fill=black!10, ultra thick, fit=(rms)(aes), minimum height = 1.5cm, minimum width = 4.25cm] (policy) {};
+\end{scope}
+
+% \node[below = 1.5cm of policy, rectangle, draw=azureblue, ultra thick, rounded corners, fill=black!10, minimum width = 4.2cm, minimum height = 1.5cm](sig) {Signatur};
+\node[below = .25cm of policy, minimum width = 4.2cm](sig) {Signatur};
+
+\node[rectangle, draw=azureblue, ultra thick, rounded corners, fit=(policy)(sig)](signedPolicy){};
+
+\node[inner sep=0pt, left = 6cm of policy] (azure){\includegraphics{images/Azure.png}};
+
+\node[inner sep=0pt, below = 1.25cm of azure] (pc){\includegraphics[scale=1]{images/PC.png}};
+\node[rectangle, below = -.1cm of pc, align=center] (caption) {Client Applikation};
+
+\node[rectangle, rounded corners, draw, fit=(enc)(signedPolicy)] (document) {};
+
+\node[rectangle, above = 0.1cm of document] (caption) {Geschütztes Dokument};
+\node[rectangle, below = 0.1cm of azure, align=center] (caption2) {Azure RMS};
+
+\draw[l] (conf) -- node [text width = 4cm, text centered, below]{Verschlüsselung von Inhalt mit Content Key} node [above, inner sep=0pt]{\includegraphics[scale=0.32]{images/AESKey.png}} (enc);
+
+\draw[l] (azure) -- node [text width = 5cm, text centered, below]{Verschlüsselung von Policy und Content Key mit Tenant Key} node [above, inner sep=0pt]{\includegraphics[scale=0.32]{images/RootKey.png}} (policy);
+
+\draw[l] (pc) -| node [text width = 5cm, text centered, pos=0.25, below]{Signierung mit Nutzerzertifikat} node [pos=0.25, above, inner sep=0pt]{\includegraphics[scale=0.45]{images/Cert.png}} (signedPolicy);
+\end{tikzpicture}

@@ -1,0 +1,12 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Abstract Time Series}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{An Early Approach}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{A Popular Approach}{8}{0}{2}
+\beamer@subsectionintoc {2}{3}{Model Selection}{9}{0}{2}
+\beamer@subsectionintoc {2}{4}{A Specialized Approach}{10}{0}{2}
+\beamer@subsectionintoc {2}{5}{A Trendy Approach}{13}{0}{2}
+\beamer@sectionintoc {3}{Spatial Time Series}{14}{0}{3}
+\beamer@subsectionintoc {3}{1}{Forecasting and Detecting Hotspots}{15}{0}{3}
+\beamer@subsectionintoc {3}{2}{Mapping between Time and Space}{16}{0}{3}

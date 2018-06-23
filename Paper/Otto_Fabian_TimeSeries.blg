@@ -4,52 +4,44 @@ The top-level auxiliary file: Otto_Fabian_TimeSeries.aux
 The style file: abbrv-doi-hyperref.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: bibliography.bib
-I was expecting a `,' or a `}'---line 135 of file bibliography.bib
- :  
- :  month = {12/2013},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Warning--to sort, need author or key in boegel:2013
-Warning--empty author in boegel:2013
-You've used 12 entries,
+You've used 29 entries,
             2608 wiz_defined-function locations,
-            677 strings with 7417 characters,
-and the built_in function-call counts, 8490 in all, are:
-= -- 1185
-> -- 364
-< -- 137
-+ -- 278
-- -- 135
-* -- 536
-:= -- 1258
-add.period$ -- 37
-call.type$ -- 12
-change.case$ -- 101
+            809 strings with 12160 characters,
+and the built_in function-call counts, 30070 in all, are:
+= -- 5593
+> -- 917
+< -- 837
++ -- 1187
+- -- 349
+* -- 1685
+:= -- 4275
+add.period$ -- 92
+call.type$ -- 29
+change.case$ -- 251
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 179
-empty$ -- 670
-format.name$ -- 132
-if$ -- 2114
+cite$ -- 29
+duplicate$ -- 475
+empty$ -- 1515
+format.name$ -- 332
+if$ -- 7802
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 13
-newline$ -- 82
-num.names$ -- 22
-pop$ -- 110
+int.to.str$ -- 29
+missing$ -- 31
+newline$ -- 268
+num.names$ -- 58
+pop$ -- 273
 preamble$ -- 1
-purify$ -- 90
+purify$ -- 224
 quote$ -- 0
-skip$ -- 128
+skip$ -- 355
 stack$ -- 0
-substring$ -- 428
-swap$ -- 50
-text.length$ -- 77
+substring$ -- 1721
+swap$ -- 152
+text.length$ -- 460
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 46
-warning$ -- 2
-while$ -- 47
-width$ -- 14
-write$ -- 216
-(There was 1 error message)
+type$ -- 112
+warning$ -- 0
+while$ -- 143
+width$ -- 31
+write$ -- 844

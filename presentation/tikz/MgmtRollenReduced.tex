@@ -1,0 +1,23 @@
+\begin{tikzpicture}[
+	scale=.75,
+    level distance=2.5cm,
+%    sibling distance=2cm,
+    edge from parent fork down,
+    edge from parent/.style={draw,rounded corners=1mm, thick, -latex'},
+    every node/.style={draw,rectangle,rounded corners, align=center, minimum width=2.1cm, minimum height=1cm, thick, fill=black!20}
+    ]
+
+\Tree
+[.Vorstand
+	[.$\dotsi$ ]
+	[.L-HR ] 
+	[.L-IT
+		[.$\dotsi$ ]
+		[.L-GSP ]
+		[.L-GTS ]
+	] 
+]
+
+%\node[rectangle, draw=none, align=center,scale=.75,fill=none] (caption) at (2,-.85) {L-IT $\preceq$ Vorstand};
+
+\end{tikzpicture}

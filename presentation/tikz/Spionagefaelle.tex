@@ -1,0 +1,124 @@
+%%Donut chart
+
+\pgfkeys{%
+/piechartthreed/.cd,
+scale/.code                =  {\def\piechartthreedscale{#1}},
+mix color/.code            =  {\def\piechartthreedmixcolor{#1}},
+background color/.code     =  {\def\piechartthreedbackcolor{#1}},
+name/.code                 =  {\def\piechartthreedname{#1}}}
+
+\newcommand\piechartthreed[2][]{% 
+   \pgfkeys{/piechartthreed/.cd,
+     scale               = 1,
+     mix color        = gray,
+     background color = white,
+     name             = pc} 
+  \pgfqkeys{/piechartthreed}{#1}
+  \begin{scope}[scale=\piechartthreedscale] 
+  \begin{scope}[xscale=5,yscale=3] 
+%     \path[preaction={fill=black,opacity=.8,
+%         path fading=circle with fuzzy edge 20 percent,
+%         transform canvas={yshift=-15mm*\piechartthreedscale}}] (0,0) circle (1cm);
+     \path[preaction={fill=black,opacity=.8,
+         path fading=circle with fuzzy edge 20 percent,
+         transform canvas={yshift=-15mm*\piechartthreedscale}}] (0,0) circle (1cm);
+    \fill[gray](0,0) circle (0.5cm);  
+     \path[preaction={fill=\piechartthreedbackcolor,opacity=.8,
+          path fading=circle with fuzzy edge 20 percent,
+          transform canvas={yshift=-10mm*\piechartthreedscale}}] (0,0) circle (0.5cm);
+     \pgfmathsetmacro\totan{0} 
+     \global\let\totan\totan 
+     \pgfmathsetmacro\bottoman{180} \global\let\bottoman\bottoman 
+     \pgfmathsetmacro\toptoman{0}   \global\let\toptoman\toptoman 
+     \begin{scope}[draw=black,thin]
+     \foreach \an/\col [count=\xi] in {#2}{%
+     \def\space{ } 
+        \coordinate (\piechartthreedname\space\xi) at (\totan+\an/2:0.75cm); 
+        \ifdim 180pt>\totan pt 
+         \ifdim 0pt=\toptoman pt
+            \shadedraw[left color=\col!20!\piechartthreedmixcolor,
+                       right color=\col!5!\piechartthreedmixcolor,
+                       draw=black,very thin] (0:.5cm) -- ++(0,-3mm) arc (0:\totan+\an:.5cm) 
+                                                       -- ++(0,3mm)  arc (\totan+\an:0:.5cm);
+            \pgfmathsetmacro\toptoman{180} 
+            \global\let\toptoman\toptoman         
+            \else
+            \shadedraw[left color=\col!20!\piechartthreedmixcolor,
+                       right color=\col!5!\piechartthreedmixcolor,
+                       draw=black,very thin](\totan:.5cm)-- ++(0,-3mm) arc(\totan:\totan+\an:.5cm)
+                                                        -- ++(0,3mm)  arc(\totan+\an:\totan:.5cm); 
+          \fi
+        \fi   
+        \fill[\col!20!gray,draw=black] (\totan:0.5cm)--(\totan:1cm)  arc(\totan:\totan+\an:1cm)
+                                     --(\totan+\an:0.5cm) arc(\totan+\an:\totan :0.5cm);     
+       \pgfmathsetmacro\finan{\totan+\an}
+       \ifdim 180pt<\finan pt 
+         \ifdim 180pt=\bottoman pt
+            \shadedraw[left color=\col!20!\piechartthreedmixcolor,
+                       right color=\col!5!\piechartthreedmixcolor,
+                       draw=black,very thin] (180:1cm) -- ++(0,-3mm) arc (180:\totan+\an:1cm) 
+                                                       -- ++(0,3mm)  arc (\totan+\an:180:1cm);
+            \pgfmathsetmacro\bottoman{0}
+            \global\let\bottoman\bottoman
+            \else
+            \shadedraw[left color=\col!20!\piechartthreedmixcolor,
+                       right color=\col!5!\piechartthreedmixcolor,
+                       draw=black,very thin](\totan:1cm)-- ++(0,-3mm) arc(\totan:\totan+\an:1cm)
+                                                        -- ++(0,3mm)  arc(\totan+\an:\totan:1cm); 
+          \fi
+        \fi
+        \pgfmathsetmacro\totan{\totan+\an}  \global\let\totan\totan 
+       } 
+    \end{scope}
+    \draw[thin,black](0,0) circle (0.5cm);
+   \end{scope}  
+\end{scope}
+}
+
+\newcommand*{\mytextstyle}{\sffamily\bfseries\color{black!85}}
+\newcommand{\arcarrow}[3]{%
+   % inner radius, middle radius, outer radius, start angle,
+   % end angle, tip protusion angle, options, text
+   \pgfmathsetmacro{\rin}{1.7}
+   \pgfmathsetmacro{\rmid}{2.2}
+   \pgfmathsetmacro{\rout}{2.7}
+   \pgfmathsetmacro{\astart}{#1}
+   \pgfmathsetmacro{\aend}{#2}
+   \pgfmathsetmacro{\atip}{5}
+   \fill[mygray, very thick] (\astart+\atip:\rin)
+                         arc (\astart+\atip:\aend:\rin)
+      -- (\aend-\atip:\rmid)
+      -- (\aend:\rout)   arc (\aend:\astart+\atip:\rout)
+      -- (\astart:\rmid) -- cycle;
+   \path[
+      decoration = {
+         text along path,
+         text = {|\mytextstyle|#3},
+         text align = {align = center},
+         raise = -1.0ex
+      },
+      decorate
+   ](\astart+\atip:\rmid) arc (\astart+\atip:\aend+\atip:\rmid);
+}
+
+
+\begin{tikzpicture}
+   \piechartthreed[scale=0.8,
+                   background color=white,
+                   mix color= darkgray]
+                   {164.52/lightgray,98.64/red,96.84/red}
+                   
+\foreach \i in {1,...,3} { \draw[fill=black] (pc \i) circle (.5mm);}
+
+\draw[black, align=right] (pc 1)  -- ++(6,0) coordinate (s1) node[anchor=south east] {\small Nicht Betroffen}
+node[anchor=north east] {45.7\%};
+
+\draw[black] (pc 2)   -- ++(-4,0) coordinate (s3)
+node[anchor=south west] {\small Verdacht}
+node[anchor=north west] {27.4\%}; 
+
+\draw[black] (pc 3)   -- ++(4.5,0) coordinate (s2)
+node[anchor=south east] {\small Betroffen}
+node[anchor=north east] {26.9\%};  
+
+\end{tikzpicture}

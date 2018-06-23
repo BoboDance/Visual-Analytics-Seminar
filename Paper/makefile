@@ -24,10 +24,10 @@
 #adjust the following for your purpose
 
 #set the a .dvi name that corresponds to your main .tex file
-DVIFILES = template.dvi
+DVIFILES = Otto_Fabian_TimeSeries.dvi
 MAINTEXFILE = $(DVIFILES:.dvi=.tex)
 SUBTEXFILES = 
-BIBFILES = template.bib
+BIBFILES = bibliography.bib
 
 #switch = to # when using ps2pdf in win32 (mingw/msys), i.e. uncomment 2nd line
 #E=\=

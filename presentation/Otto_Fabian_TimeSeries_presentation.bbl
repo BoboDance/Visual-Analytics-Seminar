@@ -1,0 +1,47 @@
+\begin{thebibliography}{1}
+
+\bibitem{Andrienko:2010:Space}
+G.~Andrienko, N.~Andrienko, S.~Bremm, T.~Schreck, T.~von Landesberger, P.~Bak,
+  and D.~Keim.
+\newblock Space-in-time and time-in-space self-organizing maps for exploring
+  spatiotemporal patterns.
+\newblock In {\em Proceedings of the 12th Eurographics / IEEE - VGTC Conference
+  on Visualization}, EuroVis'10, pages 913--922, Chichester, UK, 2010. The
+  Eurographs Association and John Wiley and Sons, Ltd.
+
+\bibitem{buono:2007}
+Paolo Buono, Catherine Plaisant, Adalberto Simeone, Aleks Aris, Galit Shmueli,
+  and Wolfgang Jank.
+\newblock Similarity-based forecasting with simultaneous previews: A river plot
+  interface for time series forecasting.
+\newblock In {\em Information Visualization, 2007. IV'07. 11th International
+  Conference}, pages 191--196. IEEE, 2007.
+
+\bibitem{ichikawa:2002}
+Yoshihiko Ichikawa, Tomoko Tsunawaki, Issei Fujishiro, and Hiwon Yoon.
+\newblock A visualization environment for multiple daytime stock price
+  predictions.
+\newblock In {\em Proceedings of the 2nd VIIP International Conferences on
+  Visualization, Imaging and Image Processing, Malaga, Spain}, 2002.
+
+\bibitem{Lu:2017}
+Yafeng Lu, Rolando Garcia, Brett Hansen, Michael Gleicher, and Ross
+  Maciejewski.
+\newblock The state-of-the-art in predictive visual analytics.
+\newblock {\em Comput. Graph. Forum}, 36(3):539--562, June 2017.
+
+\bibitem{maciejewski:2011}
+R.~Maciejewski, R.~Hafen, S.~Rudolph, S.~G. Larew, M.~A. Mitchell, W.~S.
+  Cleveland, and D.~S. Ebert.
+\newblock Forecasting hotspots: A predictive analytics approach.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  17(4):440--453, April 2011.
+
+\bibitem{steed:2017}
+Chad~A Steed, William Halsey, Ryan Dehoff, Sean~L Yoder, Vincent Paquit, and
+  Sarah Powers.
+\newblock Falcon: Visual analysis of large, irregularly sampled, and
+  multivariate time series data in additive manufacturing.
+\newblock {\em Computers and Graphics}, 63:50--64, 2017.
+
+\end{thebibliography}

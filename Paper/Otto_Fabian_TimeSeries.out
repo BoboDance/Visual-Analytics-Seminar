@@ -1,8 +1,6 @@
-\BOOKMARK [1][]{section.2}{Introduction}{}% 1
-\BOOKMARK [1][]{section.7}{Temporal Time Series }{}% 2
-\BOOKMARK [2][]{subsection.8}{Simple Time Series \(maybe just use Sect. 2.2, check what makes more sense\)}{section.7}% 3
-\BOOKMARK [2][]{subsection.9}{Pattern and Anomaly Detection}{section.7}% 4
-\BOOKMARK [2][]{subsection.10}{Time Series Prediction with Peak Preservation }{section.7}% 5
-\BOOKMARK [2][]{subsection.11}{Multivariate Time Series }{section.7}% 6
-\BOOKMARK [1][]{section.12}{Spatiotemporal Time Series}{}% 7
-\BOOKMARK [1][]{section.13}{Conclusion}{}% 8
+\BOOKMARK [1][]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][]{section.6}{Abstract Time Series}{}% 2
+\BOOKMARK [2][]{subsection.7}{Modeling}{section.6}% 3
+\BOOKMARK [2][]{subsection.9}{Result Exploration and Validation}{section.6}% 4
+\BOOKMARK [1][]{section.12}{Spatial Time Series}{}% 5
+\BOOKMARK [1][]{section.15}{Summary}{}% 6
