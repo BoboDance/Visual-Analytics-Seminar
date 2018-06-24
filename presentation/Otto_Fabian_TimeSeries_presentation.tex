@@ -62,7 +62,7 @@
 
 \title[] % [] is optional - is placed on the bottom of the sidebar on every slide
 { % is placed on the title page
-      \textbf{Visual Analysis Approaches to Multivariate Time Series Prediction}
+      \textbf{Visual Analysis Approaches to Time Series Prediction}
 }
 
 \subtitle[Visual Analytics Seminar SS 2018]
@@ -124,7 +124,7 @@
 \AtBeginSection[]
 {
 	\begin{frame}{Outline}
-		\frametitle{Outline}
+%		\frametitle{Outline}
 		\tableofcontents[currentsection]
 	\end{frame}
 }
@@ -136,7 +136,7 @@
 	\centering
 	\begin{figure}[htbp]
 		\includegraphics[scale=.35]{images/Motivation}
-		\caption{Amazon stock prediction [\textit{https://towardsdatascience.com/stock-prediction-in-python-b66555171a2}]}
+		\caption{Amazon stock price prediction [\textit{https://towardsdatascience.com/stock-prediction-in-python-b66555171a2}]}
 	\end{figure}
 \end{frame}
 
@@ -149,6 +149,7 @@
 			\item What is the overall global trend?
 			\item Do I have cyclic patterns?
 			\item What are important periods of time?
+			\item What is the best model?
 		\end{itemize}
 	\end{minipage}
 	\hfill
@@ -192,6 +193,21 @@
 \end{frame}
 
 %%-------------------------------------------------------
+
+\subsection{A Trendy Approach}
+\begin{frame}{A Trendy Approach}
+	\centering
+	\begin{figure}[htbp]
+		\includegraphics[scale=.18]{images/Peak}
+		\caption{Peak preserving prediction [\textit{Hao et al., 2012}]}
+	\end{figure}
+	\begin{itemize}
+		\item Goal: Trend detection
+		\item Ensures Peak preservation 
+	\end{itemize}
+\end{frame}
+
+%%-------------------------------------------------------
 \subsection{A Popular Approach}
 %\begin{frame}{A Popular Approach}
 %	\centering
@@ -211,20 +227,19 @@
 	\end{figure}
 	\begin{itemize}
 		\item Goal: Model selection
-		\item Similarity based model and forecast
+		\item Similarity based model and prediction
 		\item Compare different parameters and subsets of data 
 	\end{itemize}
 \end{frame}
 
 %%-------------------------------------------------------
 
-% TODO Timova
 \subsection{A Selective Approach}
 \begin{frame}{A Selective Approach}
 	\centering
 	\begin{figure}[htbp]
 		\includegraphics[scale=.17]{images/TiMoVA}
-		\caption{TiMoVA User Interface [\textit{B\"ogel et al., 2013}]}
+		\caption{TiMoVA User Interface [\textit{B\"ogel et al., 2013}; \textit{B\"ogel et al., 2014}]}
 	\end{figure}
 	\begin{itemize}
 		\item Goal: Model selection
@@ -252,35 +267,27 @@
 		\caption{Falcon waterfall visualization [\textit{Steed et al., 2017}]}
 	\end{figure}
 	\begin{itemize}
-		\item Find correlations between large amount of variables and time
-		\item Application areas: predictive maintenance
+		\item Goal: Correlation detection
+		\item Supports high dimensional time series
+		\item Application areas: predictive maintenance, quality assurance
 	\end{itemize}
 \end{frame}
 
 %%-------------------------------------------------------
 
-\begin{frame}{A Specialized Approach}
-	\centering
-	\begin{figure}[htbp]
-		\includegraphics[scale=.18]{images/Falcon_segmented}
-		\caption{Falcon segmented time series view [\textit{Steed et al., 2017}]}
-	\end{figure}
-\end{frame}
-
-\subsection{A Trendy Approach}
-\begin{frame}{A Trendy Approach}
-	\centering
-	\begin{figure}[htbp]
+%\begin{frame}{A Specialized Approach}
+%	\centering
+%	\begin{figure}[htbp]
 %		\includegraphics[scale=.18]{images/Falcon_segmented}
 %		\caption{Falcon segmented time series view [\textit{Steed et al., 2017}]}
-	\end{figure}
-\end{frame}
+%	\end{figure}
+%\end{frame}
 
 %%-------------------------------------------------------
 
 \section{Spatial Time Series}
-\subsection{Forecasting and Detecting Hotspots}
-\begin{frame}{Forecasting and Detecting Hotspots}
+\subsection{Predicting and Detecting Hotspots}
+\begin{frame}{Predicting and Detecting Hotspots}
 	\centering
 	\begin{minipage}[c]{0.65\textwidth}
 		\begin{figure}[htb]
@@ -292,9 +299,9 @@
 %	\hfill
 	\begin{minipage}[c]{0.325\textwidth}
 			\begin{itemize}
-				\item Model based spatial approximation
-				\item Direct linkage of time series prediction with spatial information
-				\item Main focus: Hotspot detection and prediction
+				\item Modeling spatial approximation of time series pred- iction
+				\item Combined visualization of time series prediction and spatial infor- mation
+				\item Main focus:\\ Hotspot detection and prediction
 			\end{itemize}
 	\end{minipage}
 \end{frame}
@@ -327,40 +334,49 @@
 		\end{figure}
 	\end{minipage}
 	\begin{itemize}
-		\item Clustering on spatial or temporal level
-		\item Direct linkage of time series prediction with spatial information
+		\item Clustering on spatial or temporal level and linkage to other dimension
 	\end{itemize}
 \end{frame}
 
 %-------------------------------------------------------
 
 \begin{frame}{Summary}
+	\textbf{Three different goals:}
 	\begin{itemize}
-		\item Turning points, seasonality and outliers make predictions complex
-		\item How to deal with really large amounts of data?
-		\item How to preserve peaks?
-
-%		\item Visualizing high dimensional time series is hard
-%		\item Visual Analytics helps to understand the data
-%		\item Finding patterns is important for prediction
-%		\item Predictive systems are often limited to specific application areas
-%		\item Analyzing Spatiotemporal data is complex and requires human analysts as well as software tools
+		\item Trend detection
+		\item Model selection 
+		\item Correlation detection 
+	\end{itemize}
+	\vfill
+	\textbf{Problems and open questions:}
+	\begin{itemize}
+		\item Turning points, seasonality and outliers
+		\item Applications are often specifically designed for one task
+		\item Freedom vs. usability
+		\item Multiple predictions and uncertainty
+		\item How to deal with large amounts of predictions?
+		\item What about sparse data?
+		\item Preserve or remove peaks?
 	\end{itemize}
 \end{frame}
 
 %-------------------------------------------------------
 
 \begin{frame}[allowframebreaks]{Bibliography}
-		\nocite{buono:2007}
-		\nocite{steed:2017}
+		\bibliographystyle{abbrv}
+		\bibliography{bibliography}
+		
+		% abstract 
 		\nocite{ichikawa:2002}
-%		\nocite{Lu:2017}
+		\nocite{Hao:2012}
+		\nocite{buono:2007}
 		\nocite{boegl:2013}
 		\nocite{boegl:2014}
+		\nocite{steed:2017}
+		
+		% spatial
 		\nocite{maciejewski:2011}
 		\nocite{Andrienko:2010:Space}
-		\bibliographystyle{plain}
-		\bibliography{bibliography}
 \end{frame}
 
 %-------------------------------------------------------
