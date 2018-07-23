@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Otto_Fabian_TimeSeries.aux
+The style file: abbrv-doi-hyperref.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: bibliography.bib
+You've used 30 entries,
+            2608 wiz_defined-function locations,
+            816 strings with 12365 characters,
+and the built_in function-call counts, 30501 in all, are:
+= -- 5630
+> -- 935
+< -- 837
++ -- 1194
+- -- 355
+* -- 1716
+:= -- 4341
+add.period$ -- 95
+call.type$ -- 30
+change.case$ -- 257
+chr.to.int$ -- 0
+cite$ -- 30
+duplicate$ -- 486
+empty$ -- 1573
+format.name$ -- 338
+if$ -- 7906
+int.to.chr$ -- 0
+int.to.str$ -- 30
+missing$ -- 32
+newline$ -- 273
+num.names$ -- 60
+pop$ -- 277
+preamble$ -- 1
+purify$ -- 229
+quote$ -- 0
+skip$ -- 362
+stack$ -- 0
+substring$ -- 1751
+swap$ -- 153
+text.length$ -- 460
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 116
+warning$ -- 0
+while$ -- 147
+width$ -- 32
+write$ -- 855

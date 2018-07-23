@@ -1,0 +1,408 @@
+\begin{thebibliography}{10}
+
+\bibitem{Andrienko:2005}
+\href{https://doi.org/10.1109/IV.2005.135}{G.~Andrienko and N.~Andrienko}.
+\newblock \href{https://doi.org/10.1109/IV.2005.135}{Visual exploration of the
+  spatial distribution of temporal behaviors}.
+\newblock \href{https://doi.org/10.1109/IV.2005.135}{In {\em Ninth
+  International Conference on Information Visualisation (IV'05)}},
+  \href{https://doi.org/10.1109/IV.2005.135}{pp. 799--806},
+  \href{https://doi.org/10.1109/IV.2005.135}{July 2005}.
+  \href{https://doi.org/10.1109/IV.2005.135}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}IV\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2005\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}135}}}
+
+
+\bibitem{Andrienko:2010:Space}
+\href{https://doi.org/10.1111/j.1467-8659.2009.01664.x}{G.~Andrienko,
+  N.~Andrienko, S.~Bremm, T.~Schreck, T.~von Landesberger, P.~Bak, and
+  D.~Keim}.
+\newblock \href{https://doi.org/10.1111/j.1467-8659.2009.01664.x}{Space-in-time
+  and time-in-space self-organizing maps for exploring spatiotemporal
+  patterns}.
+\newblock \href{https://doi.org/10.1111/j.1467-8659.2009.01664.x}{In {\em
+  Proceedings of the 12th Eurographics / IEEE - VGTC Conference on
+  Visualization}},
+  \href{https://doi.org/10.1111/j.1467-8659.2009.01664.x}{EuroVis'10},
+  \href{https://doi.org/10.1111/j.1467-8659.2009.01664.x}{pp. 913--922}.
+  \href{https://doi.org/10.1111/j.1467-8659.2009.01664.x}{The Eurographs
+  Association and John Wiley and Sons, Ltd.},
+  \href{https://doi.org/10.1111/j.1467-8659.2009.01664.x}{Chichester, UK},
+  \href{https://doi.org/10.1111/j.1467-8659.2009.01664.x}{2010}.
+  \href{https://doi.org/10.1111/j.1467-8659.2009.01664.x}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1111\discretionary{/}{%
+}{/}j\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1467\discretionary{%
+}{-}{-}8659\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2009\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}01664\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}x}}}
+
+
+\bibitem{Andrienko:2008}
+\href{https://doi.org/10.1057/ivs.2008.23}{G.~Andrienko, N.~Andrienko,
+  J.~Dykes, S.~I. Fabrikant, and M.~Wachowicz}.
+\newblock \href{https://doi.org/10.1057/ivs.2008.23}{Geovisualization of
+  dynamics, movement and change: Key issues and developing approaches in
+  visualization research}.
+\newblock \href{https://doi.org/10.1057/ivs.2008.23}{{\em Information
+  Visualization}}, \href{https://doi.org/10.1057/ivs.2008.23}{7(3):173--180},
+  \href{https://doi.org/10.1057/ivs.2008.23}{June 2008}.
+  \href{https://doi.org/10.1057/ivs.2008.23}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1057\discretionary{/}{%
+}{/}ivs\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2008\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}23}}}
+
+
+\bibitem{Andrienko:2010}
+G.~Andrienko, N.~Andrienko, M.~Mladenov, M.~Mock, and C.~Poelitz.
+\newblock Extracting events from spatial time series.
+\newblock In {\em 2010 14th International Conference Information
+  Visualisation}, pp. 48--53, July 2010.
+
+\bibitem{boegl:2014}
+M.~B{\"o}gl, W.~Aigner, P.~Filzmoser, T.~Gschwandtner, T.~Lammarsch, S.~Miksch,
+  and A.~Rind.
+\newblock Visual analytics methods to guide diagnostics for time series model
+  predictions.
+\newblock In {\em IEEE VIS 2014 Workshop Visualization for Predictive
+  Analytics, VPA}, 2014.
+
+\bibitem{boegl:2013}
+\href{https://doi.org/10.1109/TVCG.2013.222}{M.~B{\"o}gl, W.~Aigner,
+  P.~Filzmoser, T.~Lammarsch, S.~Miksch, and A.~Rind}.
+\newblock \href{https://doi.org/10.1109/TVCG.2013.222}{Visual analytics for
+  model selection in time series analysis}.
+\newblock \href{https://doi.org/10.1109/TVCG.2013.222}{{\em IEEE Transactions
+  on Visualization and Computer Graphics, Special Issue "VIS 2013"}},
+  \href{https://doi.org/10.1109/TVCG.2013.222}{19:2237 -- 2246},
+  \href{https://doi.org/10.1109/TVCG.2013.222}{12 2013}.
+  \href{https://doi.org/10.1109/TVCG.2013.222}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}TVCG\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2013\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}222}}}
+
+
+\bibitem{box:2015}
+G.~E. Box, G.~M. Jenkins, G.~C. Reinsel, and G.~M. Ljung.
+\newblock {\em Time series analysis: forecasting and control}.
+\newblock John Wiley and Sons, 2015.
+
+\bibitem{buono:2005}
+P.~Buono, A.~Aris, C.~Plaisant, A.~Khella, and B.~Shneiderman.
+\newblock Interactive pattern search in time series.
+\newblock In {\em Visualization and Data Analysis 2005}, vol. 5669, pp.
+  175--187. International Society for Optics and Photonics, 2005.
+
+\bibitem{buono:2007}
+P.~Buono, C.~Plaisant, A.~Simeone, A.~Aris, G.~Shmueli, and W.~Jank.
+\newblock Similarity-based forecasting with simultaneous previews: A river plot
+  interface for time series forecasting.
+\newblock In {\em Information Visualization, 2007. IV'07. 11th International
+  Conference}, pp. 191--196. IEEE, 2007.
+
+\bibitem{Chae:2012}
+\href{https://doi.org/10.1109/VAST.2012.6400557}{J.~Chae, D.~Thom, H.~Bosch,
+  Y.~Jang, R.~Maciejewski, D.~S. Ebert, and T.~Ertl}.
+\newblock \href{https://doi.org/10.1109/VAST.2012.6400557}{Spatiotemporal
+  social media analytics for abnormal event detection and examination using
+  seasonal-trend decomposition}.
+\newblock \href{https://doi.org/10.1109/VAST.2012.6400557}{In {\em 2012 IEEE
+  Conference on Visual Analytics Science and Technology (VAST)}},
+  \href{https://doi.org/10.1109/VAST.2012.6400557}{pp. 143--152},
+  \href{https://doi.org/10.1109/VAST.2012.6400557}{Oct 2012}.
+  \href{https://doi.org/10.1109/VAST.2012.6400557}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}VAST\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2012\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}6400557}}}
+
+
+\bibitem{draper:2014}
+N.~R. Draper and H.~Smith.
+\newblock {\em Applied regression analysis}, vol. 326.
+\newblock John Wiley \& Sons, 2014.
+
+\bibitem{Gschwandtner:2011}
+\href{https://doi.org/10.1109/PACIFICVIS.2011.5742371}{T.~Gschwandtner,
+  W.~Aigner, K.~Kaiser, S.~Miksch, and A.~Seyfang}.
+\newblock \href{https://doi.org/10.1109/PACIFICVIS.2011.5742371}{Carecruiser:
+  Exploring and visualizing plans, events, and effects interactively}.
+\newblock \href{https://doi.org/10.1109/PACIFICVIS.2011.5742371}{In {\em 2011
+  IEEE Pacific Visualization Symposium}},
+  \href{https://doi.org/10.1109/PACIFICVIS.2011.5742371}{pp. 43--50},
+  \href{https://doi.org/10.1109/PACIFICVIS.2011.5742371}{March 2011}.
+  \href{https://doi.org/10.1109/PACIFICVIS.2011.5742371}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}PACIFICVIS\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2011\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}5742371}}}
+
+
+\bibitem{Hao:2011}
+\href{https://doi.org/10.1111/j.1467-8659.2011.01918.x}{M.~C. Hao, H.~Janetzko,
+  S.~Mittelst\"{a}dt, W.~Hill, U.~Dayal, D.~A. Keim, M.~Marwah, and R.~K.
+  Sharma}.
+\newblock \href{https://doi.org/10.1111/j.1467-8659.2011.01918.x}{A visual
+  analytics approach for peak-preserving prediction of large seasonal time
+  series}.
+\newblock \href{https://doi.org/10.1111/j.1467-8659.2011.01918.x}{In {\em
+  Proceedings of the 13th Eurographics / IEEE - VGTC Conference on
+  Visualization}},
+  \href{https://doi.org/10.1111/j.1467-8659.2011.01918.x}{EuroVis'11},
+  \href{https://doi.org/10.1111/j.1467-8659.2011.01918.x}{pp. 691--700}.
+  \href{https://doi.org/10.1111/j.1467-8659.2011.01918.x}{The Eurographs
+  Association and John Wiley and Sons, Ltd.},
+  \href{https://doi.org/10.1111/j.1467-8659.2011.01918.x}{Chichester, UK},
+  \href{https://doi.org/10.1111/j.1467-8659.2011.01918.x}{2011}.
+  \href{https://doi.org/10.1111/j.1467-8659.2011.01918.x}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1111\discretionary{/}{%
+}{/}j\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1467\discretionary{%
+}{-}{-}8659\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2011\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}01918\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}x}}}
+
+
+\bibitem{Hao:2009}
+\href{https://doi.org/10.1109/VAST.2009.5333420}{M.~C. Hao, H.~Janetzko, R.~K.
+  Sharma, U.~Dayal, D.~A. Keim, and M.~Castellanos}.
+\newblock \href{https://doi.org/10.1109/VAST.2009.5333420}{Poster: Visual
+  prediction of time series}.
+\newblock \href{https://doi.org/10.1109/VAST.2009.5333420}{In {\em 2009 IEEE
+  Symposium on Visual Analytics Science and Technology}},
+  \href{https://doi.org/10.1109/VAST.2009.5333420}{pp. 229--230},
+  \href{https://doi.org/10.1109/VAST.2009.5333420}{Oct 2009}.
+  \href{https://doi.org/10.1109/VAST.2009.5333420}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}VAST\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2009\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}5333420}}}
+
+
+\bibitem{Hao:2012}
+\href{https://doi.org/10.1177/1473871611430769}{M.~C. Hao, M.~Marwah,
+  H.~Janetzko, U.~Dayal, D.~A. Keim, D.~Patnaik, N.~Ramakrishnan, and R.~K.
+  Sharma}.
+\newblock \href{https://doi.org/10.1177/1473871611430769}{Visual exploration of
+  frequent patterns in multivariate time series}.
+\newblock \href{https://doi.org/10.1177/1473871611430769}{{\em Information
+  Visualization}},
+  \href{https://doi.org/10.1177/1473871611430769}{11(1):71--83},
+  \href{https://doi.org/10.1177/1473871611430769}{Jan. 2012}.
+  \href{https://doi.org/10.1177/1473871611430769}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1177\discretionary{/}{%
+}{/}1473871611430769}}}
+
+
+\bibitem{Hochheiser:2004}
+\href{https://doi.org/10.1145/993176.993177}{H.~Hochheiser and B.~Shneiderman}.
+\newblock \href{https://doi.org/10.1145/993176.993177}{Dynamic query tools for
+  time series data sets: Timebox widgets for interactive exploration}.
+\newblock \href{https://doi.org/10.1145/993176.993177}{{\em Information
+  Visualization}}, \href{https://doi.org/10.1145/993176.993177}{3(1):1--18},
+  \href{https://doi.org/10.1145/993176.993177}{Mar. 2004}.
+  \href{https://doi.org/10.1145/993176.993177}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1145\discretionary{/}{%
+}{/}993176\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}993177}}}
+
+
+\bibitem{ichikawa:2002}
+Y.~Ichikawa, T.~Tsunawaki, I.~Fujishiro, and H.~Yoon.
+\newblock A visualization environment for multiple daytime stock price
+  predictions.
+\newblock In {\em Proceedings of the 2nd VIIP International Conferences on
+  Visualization, Imaging and Image Processing, Malaga, Spain}, 2002.
+
+\bibitem{janetzko:2014}
+H.~Janetzko, F.~Stoffel, S.~Mittelst{\"a}dt, and D.~A. Keim.
+\newblock Anomaly detection for visual analytics of power consumption data.
+\newblock {\em Computers and Graphics}, 38:27--37, 2014.
+
+\bibitem{Kehrer:2008}
+\href{https://doi.org/10.1109/TVCG.2008.139}{J.~Kehrer, F.~Ladstädter,
+  P.~Muigg, H.~Doleisch, A.~Steiner, and H.~Hauser}.
+\newblock \href{https://doi.org/10.1109/TVCG.2008.139}{Hypothesis generation in
+  climate research with interactive visual data exploration}.
+\newblock \href{https://doi.org/10.1109/TVCG.2008.139}{{\em IEEE Transactions
+  on Visualization and Computer Graphics}},
+  \href{https://doi.org/10.1109/TVCG.2008.139}{14(6):1579--1586},
+  \href{https://doi.org/10.1109/TVCG.2008.139}{Nov 2008}.
+  \href{https://doi.org/10.1109/TVCG.2008.139}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}TVCG\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2008\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}139}}}
+
+
+\bibitem{koepp:2014}
+C.~K{\"o}pp, H.-J. von Mettenheim, and M.~H. Breitner.
+\newblock Decision analytics mit heatmap-visualisierung von mehrschrittigen
+  ensembledaten.
+\newblock {\em Wirtschaftsinformatik}, 56(3):147--157, 2014.
+
+\bibitem{Lu:2017}
+\href{https://doi.org/10.1111/cgf.13210}{Y.~Lu, R.~Garcia, B.~Hansen,
+  M.~Gleicher, and R.~Maciejewski}.
+\newblock \href{https://doi.org/10.1111/cgf.13210}{The state-of-the-art in
+  predictive visual analytics}.
+\newblock \href{https://doi.org/10.1111/cgf.13210}{{\em Comput. Graph. Forum}},
+  \href{https://doi.org/10.1111/cgf.13210}{36(3):539--562},
+  \href{https://doi.org/10.1111/cgf.13210}{June 2017}.
+  \href{https://doi.org/10.1111/cgf.13210}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1111\discretionary{/}{%
+}{/}cgf\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}13210}}}
+
+
+\bibitem{maciejewski:2011}
+\href{https://doi.org/10.1109/TVCG.2010.82}{R.~Maciejewski, R.~Hafen,
+  S.~Rudolph, S.~G. Larew, M.~A. Mitchell, W.~S. Cleveland, and D.~S. Ebert}.
+\newblock \href{https://doi.org/10.1109/TVCG.2010.82}{Forecasting hotspots: A
+  predictive analytics approach}.
+\newblock \href{https://doi.org/10.1109/TVCG.2010.82}{{\em IEEE Transactions on
+  Visualization and Computer Graphics}},
+  \href{https://doi.org/10.1109/TVCG.2010.82}{17(4):440--453},
+  \href{https://doi.org/10.1109/TVCG.2010.82}{April 2011}.
+  \href{https://doi.org/10.1109/TVCG.2010.82}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}TVCG\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2010\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}82}}}
+
+
+\bibitem{maciejewski:2010}
+R.~Maciejewski, S.~Rudolph, R.~Hafen, A.~Abusalah, M.~Yakout, M.~Ouzzani, W.~S.
+  Cleveland, S.~J. Grannis, and D.~S. Ebert.
+\newblock A visual analytics approach to understanding spatiotemporal hotspots.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  16(2):205--220, 2010.
+
+\bibitem{maciejewski:2008}
+\href{https://doi.org/10.1109/VAST.2008.4677354}{R.~Maciejewski, S.~Rudolph,
+  R.~Hafen, A.~Abusalah, M.~Yakout, M.~Ouzzani, W.~S. Cleveland, S.~J. Grannis,
+  M.~Wade, and D.~S. Ebert}.
+\newblock \href{https://doi.org/10.1109/VAST.2008.4677354}{Understanding
+  syndromic hotspots - a visual analytics approach}.
+\newblock \href{https://doi.org/10.1109/VAST.2008.4677354}{In {\em 2008 IEEE
+  Symposium on Visual Analytics Science and Technology}},
+  \href{https://doi.org/10.1109/VAST.2008.4677354}{pp. 35--42},
+  \href{https://doi.org/10.1109/VAST.2008.4677354}{Oct 2008}.
+  \href{https://doi.org/10.1109/VAST.2008.4677354}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}VAST\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2008\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}4677354}}}
+
+
+\bibitem{maciejewski:2007}
+R.~Maciejewski, B.~Tyner, Y.~Jang, C.~Zheng, R.~V. Nehme, D.~S. Ebert, W.~S.
+  Cleveland, M.~Ouzzani, S.~J. Grannis, and L.~T. Glickman.
+\newblock Lahva: Linked animal-human health visual analytics.
+\newblock In {\em 2007 IEEE Symposium on Visual Analytics Science and
+  Technology}, pp. 27--34, Oct 2007.
+
+\bibitem{malik:2014}
+A.~Malik, R.~Maciejewski, S.~Towers, S.~McCullough, and D.~S. Ebert.
+\newblock Proactive spatiotemporal resource allocation and predictive visual
+  analytics for community policing and law enforcement.
+\newblock {\em IEEE transactions on visualization and computer graphics},
+  20(12):1863--1872, 2014.
+
+\bibitem{McLachlan:2008}
+\href{https://doi.org/10.1145/1357054.1357286}{P.~McLachlan, T.~Munzner,
+  E.~Koutsofios, and S.~North}.
+\newblock \href{https://doi.org/10.1145/1357054.1357286}{Liverac: Interactive
+  visual exploration of system management time-series data}.
+\newblock \href{https://doi.org/10.1145/1357054.1357286}{In {\em Proceedings of
+  the SIGCHI Conference on Human Factors in Computing Systems}},
+  \href{https://doi.org/10.1145/1357054.1357286}{CHI '08},
+  \href{https://doi.org/10.1145/1357054.1357286}{pp. 1483--1492}.
+  \href{https://doi.org/10.1145/1357054.1357286}{ACM},
+  \href{https://doi.org/10.1145/1357054.1357286}{New York, NY, USA},
+  \href{https://doi.org/10.1145/1357054.1357286}{2008}.
+  \href{https://doi.org/10.1145/1357054.1357286}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1145\discretionary{/}{%
+}{/}1357054\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1357286}}}
+
+
+\bibitem{steed:2017}
+C.~A. Steed, W.~Halsey, R.~Dehoff, S.~L. Yoder, V.~Paquit, and S.~Powers.
+\newblock Falcon: Visual analysis of large, irregularly sampled, and
+  multivariate time series data in additive manufacturing.
+\newblock {\em Computers and Graphics}, 63:50--64, 2017.
+
+\bibitem{Thom:2012}
+\href{https://doi.org/10.1109/PacificVis.2012.6183572}{D.~Thom, H.~Bosch,
+  S.~Koch, M.~Wörner, and T.~Ertl}.
+\newblock \href{https://doi.org/10.1109/PacificVis.2012.6183572}{Spatiotemporal
+  anomaly detection through visual analysis of geolocated twitter messages}.
+\newblock \href{https://doi.org/10.1109/PacificVis.2012.6183572}{In {\em 2012
+  IEEE Pacific Visualization Symposium}},
+  \href{https://doi.org/10.1109/PacificVis.2012.6183572}{pp. 41--48},
+  \href{https://doi.org/10.1109/PacificVis.2012.6183572}{Feb 2012}.
+  \href{https://doi.org/10.1109/PacificVis.2012.6183572}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}PacificVis\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2012\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}6183572}}}
+
+
+\bibitem{Xie:2014}
+\href{https://doi.org/10.1109/TVCG.2014.2346913}{C.~Xie, W.~Chen, X.~Huang,
+  Y.~Hu, S.~Barlowe, and J.~Yang}.
+\newblock \href{https://doi.org/10.1109/TVCG.2014.2346913}{Vaet: A visual
+  analytics approach for e-transactions time-series}.
+\newblock \href{https://doi.org/10.1109/TVCG.2014.2346913}{{\em IEEE
+  Transactions on Visualization and Computer Graphics}},
+  \href{https://doi.org/10.1109/TVCG.2014.2346913}{20(12):1743--1752},
+  \href{https://doi.org/10.1109/TVCG.2014.2346913}{Dec 2014}.
+  \href{https://doi.org/10.1109/TVCG.2014.2346913}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1109\discretionary{/}{%
+}{/}TVCG\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2014\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2346913}}}
+
+
+\end{thebibliography}

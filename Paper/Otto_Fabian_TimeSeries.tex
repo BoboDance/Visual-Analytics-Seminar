@@ -119,56 +119,137 @@
 
 \maketitle
 
-Predicting the futures is problem, which is present in corporate scenarios as well as in everyones personal life. 
+Making predictions about the future is a common problem in corporate scenarios as well as in everyones personal life. 
 Corporations need predictions in order to determine e.g. the following day's demand on the market or which new product has the highest Return on Investment.
-The same is applicable for the personal live, when buying a new laptop or signing a contract.
-These decisions are easier if there is at least some certainty.\\
+This is also true for the personal live, when buying a new laptop or signing a contract.
+These decisions are easier if there is at least some certainty about future events.\\
 According to Lu et al. \cite{Lu:2017} predictive analytics is concerned with the prediction of future outcomes and trends based past observations. 
 It comprises an approach that includes pattern recognition, extrapolation and algorithmic modeling associated with domain knowledge.
-Contrary to that are descriptive or prescriptive systems, which are reactive and provide information after the decision or populate decision models respectively.
+Contrary to that, descriptive or prescriptive systems are reactive and provide information after the decision was made or populate decision models respectively.
 Consequently, predictive analysis can be seen in between these two in the way of applying historical data to generate knowledge about the future.
-Predictive Visual Analytics typically relies on four different steps \cite{Lu:2017}:
-\begin{enumerate}
-	\item Data Preprocessing
-	\item Feature Engineering
-	\item Modeling
-	\item Result Exploration and Validation
-\end{enumerate}
-This survey  
-%mainly focuses on the modeling and result explorations step and 
-assumes data preprocessing and feature selection were already conducted and focuses on the following steps.
-However, some systems may provide these functionalities as well.\\
+%Predictive Visual Analytics typically relies on four different steps \cite{Lu:2017}:
+%\begin{enumerate}
+%	\item Data Preprocessing
+%	\item Feature Engineering
+%	\item Modeling
+%	\item Result Exploration and Validation
+%\end{enumerate}
 Time series are often highly complex, depend on different variables and cannot be easily predicted. 
 Common models to analyze time series are often based on the Box-Jenkins method \cite{box:2015} or on regression \cite{draper:2014}.
-These automatic approaches provide analysts with forecasts, however they are often not able to provide analysts with an understanding of interesting phenomena.
+These automatic approaches provide analysts with forecasts.
+However, they are often not able to provide analysts with an understanding of interesting phenomena.
 This means analysts cannot easily include their domain knowledge in the modeling process in order to create better predictive models.
-In combination with visual analytics, analysts interactively search for global trends and local cyclic patterns, i.e. seasonal effects.
-This allows them to detect anomalies and turning points, which may change the future direction of the time series.
-Additionally, analysts can identify important events/periods of time, such as the weeks before Christmas.\\
+In combination with visual analytics, analysts have an interactive solution, which enables them to answer a wider range of research questions, such as: 
+\begin{enumerate}
+	\item[(Q1)] What are global trends within the time series?
+	\item[(Q2)] Which local patterns, seasonal trends and important events/periods can be found?
+	\item[(Q3)] Which model is the best to represent the time series?
+	\item[(Q4)] How can this information be used to detect anomalies and turning points, which may change the future direction of the time series?
+	\item[(Q5)] Which correlations between variables can be found?
+	\item[(Q6)] Which parameters are influencing my production process?
+	\item[(Q7)] How certain is my current prediction? 
+\end{enumerate}
+% interactively search for global trends (1) and local cyclic patterns (2), i.e. seasonal effects.
+%This allows them to detect anomalies and turning points, which may change the future direction of the time series.
+%Additionally, analysts can identify important events/periods of time, such as the weeks before Christmas.\\
+This survey will mainly focus on questions (Q1) and (Q2) in \autoref{subsec:trend}, on (Q3) in \autoref{subsec:selection} and (Q4), (Q5), (Q6) in \autoref{subsec:correlation}.
+(Q7) is addressed throughout all sections.
+Nevertheless, time series prediction is an ambiguous field and some overlap might occur.\\
 Moreover, in some cases additional information about the location are available and have to be included in the pattern detection and prediction process. 
 In spatiotemporal analysis, analysts search for regions with unusually high occurrences of events, also called hotspots.
 For cases where these hotspots are found, analysts would like to predict how these regions will develop and where new hotspots may occur in order to come up with better decisions.
-Applications areas could involve, detecting outbreaks of diseases as well as crime and terror developments. 
-Hence, this survey gives an overview of visual analytics approaches, which support analysts to detect and understand patterns in multivariate temporal and spatiotemporal data.
+Prominent applications areas involve: detecting outbreaks of diseases as well as crime and terror developments. \\
+Hence, the goal is to provide the reader with an entry point to select an appropriate approach according to her/his currently required area of application. 
 
 \section{Abstract Time Series\label{sec:temporal}}
-%Temporal time series only utilize the time dimension in order to predict future events or find patterns. 
-%
-%Couple more sentences introduction.
+Abstract time series only utilize the time dimension in order to predict future events or find patterns.
+This includes 
+%TODO
+
 %%Maybe add this as one of the first attempts to prediction with VA \cite{yue:2009}.
-%
-%\subsection{Pattern and Anomaly Detection\label{subsec:pattern}}
-\subsection{Modeling\label{sec:modeling}}
-The modeling steps builds upon the previous data preprocessing and feature selection process. 
-This assumes the analyst already got in the first step an understanding about the data and prepared it for analysis.
-Further, he took care of feature generation and feature selection in order to represent the data accordingly. 
-During this step, systems support the analyst with e.g. subspace exploration, training set modification, parameter tuning. \cite{Lu:2017}\\
-An popular approach for general time series analysis is from Buono et al. \cite{buono:2005} and focuses explicitly on automatically finding similar patterns compared to a user specified pattern.
+
+\subsection{Trend Detection\label{subsec:trend}}
+The most common problem in time series prediction is trend detection.
+This involves finding a overall global trend or a more specific local trend, e.g. seasonal changes in retail due to Christmas.
+In regression analysis this can expressed as finding a predictive function 
+\[
+y(\textbf{x,w}) = \textbf{w}_0 + \sum_{j=0}^{M-1} \textbf{w}_j \phi_j(\textbf{x})
+\]
+where $M$ represents the models parameters and $\phi(\cdot)$ a feature function to model the desired behavior. 
+Unfortunately, these kind of models hardly allow the analyst to include domain knowledge in the prediction process.\\
+
+An older Visual Analytics approaches can be found from Ichikawa et al. \cite{ichikawa:2002}.
+Their goal was to enable stock analysts to predict multiple daytime stock prices and simultaneously visualize a set of predictions from different simulation systems. 
+This means their system mainly supports result exploration by efficiently visualizing a vast amount of predictions.
+As a consequence, the visualization includes multiple predictions for multiple stocks. 
+Further, one major finding was, visualizing multivariate predictions in a 3-dimensional space creates high levels of occlusion, thus, it is not suitable to provide an easy and intuitive way of visualization.
+Instead, the system utilizes line charts with cluttering control and a color band display with level-of-detail control (\autoref{fig:color-band}). 
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=\columnwidth]{color-band}
+	\caption{Color band display \cite{ichikawa:2002}}
+	\label{fig:color-band}
+\end{figure}
+
+The color band display reduces the complexity of the predictive time series as large amounts of simulations typically create occlusions within the line plot.
+This issue can also be found in TimeSearcher \cite{buono:2007}, which displays the mean instead.
+The color band is created by assigning similar predictions to the same cluster and consequently reducing the time series to a color band, i.e. its key elements and overall trend of each cluster.
+Therefore, the analyst is able to detect discrepancies between the clusters and compare specific predictions with the overall trend. 
+For additional comparison, the system's workspace visualizes a set of predictions for different parameter ranges (e.g. sales organizations) as well as different stocks.
+Whereas the different parameter ranges could also support the analyst in answering (Q3).
+Consequently, the user can detect trends concerning the whole stock market and answer (Q1).  
+However, due to the amount of simulations displayed, it might be hard to extract specific information.
+The color band display lowers the complexity significantly, hence this system is not able to answer (Q2) properly.
+Additionally, the system is not visualizing any information about the simulations' certainty and makes it hard for an analyst to determine, which simulations are more important and fails to answer (Q7).
+
+In contrast to Ichikawa \cite{ichikawa:2002} the system of Hao et al. \cite{Hao:2011, Hao:2009} explicitly focuses on time series prediction with peak preservation and is able to provide the analyst with better answers to (Q2).
+Identified peaks are explicitly included in the systems forecast.
+In their work they focus on cell based power consumption data in data centers, for which it is especially important to have deeper knowledge of peaks.
+They applied an automated peak preserving smoothing method in order to reduce noise and get a more reliable prediction as well as retain the seasonality of the data.
+Thereby, the analyst is able to determine the influence of more recent measurements, i.e. how far back in time seasonality is considered in the smoothing process. 
+Further, the system provides a visualization of its prediction quality on the historical time series, which allows the analyst to judge the quality of the current model (Q7). 
+It has to be mentioned here, that including a peak preservation is sometimes not wanted.
+For example when predicting the market's demand, the global trend is more important and including peaks may induce more uncertainty. 
+A large drawback of those systems is their univariate focus, therefore they may be insufficient in a lot of practical applications.
+
+Visualizing uncertainty was one of the analyst questions Ichikawa's \cite{ichikawa:2002} system was not able to answer.
+A popular choice to address this problem is based on ensemble visualizations, which were only partially applied, however the visualization was restricted to the color band display and the analyst was not presented with the certainty based on multiple predictions. 
+The system from K\"opp et al. \cite{koepp:2014} provides a heatmap-based option to visualize multiple time series predictions. 
+Their interactive solution offers analysts an comprehensive analysis of the predictions certainties with e.g. quantiles, extrema and percentiles. 
+Further, similar to Ichikawa, the analyst is able to detect diverging trends within the given ensembles. 
+Another resembling feature to Ichikawa is the external source of simulations. 
+Depending on the application area, this can be beneficial or disadvantages. 
+Analysts can used their existing ensemble and visualize it, but it is more complicated to begin with if no such analysis environment is present. 
+Other ensemble approaches incorporate models explicitly and help in general to answer (Q7), but this is beyond the scope of the survey and the reader is encouraged to use this work as a entry point for further research. 
+
+During the evaluation of TiMoVa \cite{boegl:2013}, (further details about this tool in \autoref{subsec:selection}) they found that an actual prediction functionality would provide additional value for the analyst during the model selection.
+Therefor, B\"oegel et al. \cite{boegl:2014} included a result exploration and validation functionality.
+This allows the analyst to adjust different model parameters and see real time changes in the corresponding prediction visualizations.
+Consequently, the analyst gets feedback about the adequateness of the chosen model and can simultaneously use the provided visualizations after the selection process to search for trends to answer (Q1) and (Q2).
+%Similar to \cite{buono:2007}, the prediction is incorporated with confidence bands to express the models certainty. 
+The models certainty is incorporated with displaying confidence bands.
+Additionally, they specifically visualize the difference of true and predicted values for each data point as well as the direction (positive or negative).
+This gives the analyst a quick overview if the model is constantly over- or underestimating the time series as well as how long and often this occurs and is not provided by any of the other models.
+
+\subsection{Model Selection\label{subsec:selection}}
+%TODO Introduction
+Besides searching for trends with a visual analytics system directly, analyst are often interested in create a model. 
+Models have the advantage that they can be used by unexperienced users once they are defined as well as in automatic systems. 
+However, as mentioned in the previous chapter simply applying a model is restricting the analyst. 
+Therefor, model selection approaches want to support analysts in finding the best model for their forecast, so that domain knowledge can be included as much as possible. 
+%The modeling steps builds upon the previous data preprocessing and feature selection process. 
+%This assumes the analyst already has an understanding about the data and prepared it for analysis.
+%Further, he took care of feature generation and feature selection in order to represent the data accordingly. 
+More precisely, during model selection the systems support the analyst with e.g. subspace exploration, training set modification, parameter tuning. \cite{Lu:2017}\\
+A popular approach for general abstract time series analysis is from Buono et al. \cite{buono:2005}.
+It focuses on automatically detecting similar patterns compared to a user specified pattern.
 The system was built upon TimeSearcher proposed by Hochheiser and Shneiderman \cite{Hochheiser:2004}, which concentrates on high usability even for users without specialized skills such as in statistics.
 %Based on their idea, Buono et al. continued with using timeboxes, i.e. rectangular regions that filter the data and reduce the scope of each search.
 %Their updated version adds another variant for pattern search in the remaining data. 
 %Further, they also allow users to work with long time series of multiple heterogeneous variables. 
-However, these two version of TimeSearcher are more interested in data exploration and consequently would be located either in the data preprocessing or as supporting tool in the feature engineering step. 
+However, these two version of TimeSearcher are more interested in data exploration and consequently would be located before the model selection step to provide the analyst with a better understanding of the data. 
+%either in the data preprocessing or as supporting tool in the feature engineering step. 
 %For data exploration the user is initially presented with a multivariable time series viewer, which allows to visually analyze multiple variables in parallel on different levels-of-detail.
 %In order to detect reoccurring and similar patterns, the user highlights a found pattern within the time series and the system uses a similarity-based search to find other occurrences. 
 %Therefor, the search space can be limited to only interesting areas.
@@ -176,13 +257,16 @@ However, these two version of TimeSearcher are more interested in data explorati
 %This process of returning many results and consequently enable the user to reduce the outcome to his/her liking, can also be found in spatiotemporal approaches (\autoref{sec:spatiotemp}), esp. in the template driven approach of \cite{malik:2014}.
 %Moreover, TimeSearcher also provides different data transformations to match patterns more easily. 
 %One drawback of the system is that it cannot deal with missing data points and pattern matching is very depended on the user's chosen parameters.
-For modeling the updated version of TimeSearcher by Buono et al. \cite{buono:2007} is of greater interest.  
-For its prediction, it resorts on the similarity-based approach, which was used in the previous version \cite{buono:2005} to detect time series with similar behavior.
-In order to provide the analyst with an better overall understanding of the selected subset of time series, the system offers a summarized view based on a river plot, which also incorporates confidence bands (bottom right of \autoref{fig:timesearcher}).
+To assist the model selection process, the updated version of TimeSearcher by Buono et al. \cite{buono:2007} is providing additional features.  
+These additional features include an actual prediction functionality and a preview interface with different parameter selection tools.
+For the prediction, TimeSearcher resorts on the similarity-based approach, which was used in the previous version \cite{buono:2005} to detect time series with similar behavior.
+In order to provide the analyst with an better overall understanding of the selected subset of time series, the system offers a summarized view based on a river plot, which also incorporates confidence bands (bottom right of \autoref{fig:timesearcher}) as in the following system TiMoVa \cite{boegl:2013} .
 The actual prediction is computed by extrapolating only those time series, which were identified as similar to the target time series.
-%As in \cite{buono:2005} the system is meant for users without statistical knowledge.
-In order enable the analyst to select a better model, the simultaneous preview interface allows to compare multiple parameter choices as well as different modeling techniques, such as smoothing, in parallel (\autoref{fig:timesearcher}). 
+As in \cite{buono:2005} the system is meant for users without statistical knowledge.
+In order enable the analyst to select a better model, the simultaneous preview interface allows to compare multiple parameter choices as well as different modeling techniques, such as smoothing, in parallel (\autoref{fig:timesearcher}).
+This idea of displaying different parameter outcomes is also included in the stock price prediction from \cite{ichikawa:2002}.
 Given the data-driven nature of the system, this requires the analyst to provide larger datasets compared to a model-driven approach.
+Further, the actual prediction is only using the mean and thus might not be able to represent more complex data sets. 
 However, the simultaneous preview interface simplifies the modeling process and makes it accessible to untrained users and allows experienced analysts to get a better insight.
 
 \begin{figure}[htb]
@@ -193,16 +277,83 @@ However, the simultaneous preview interface simplifies the modeling process and 
 	\label{fig:timesearcher}
 \end{figure}
 
-In practical scenarios the requirement to have large amounts of data points can often be a problem, which makes the systems \cite{Hochheiser:2004, buono:2005, buono:2007} less valuable.
+In practical scenarios the requirement to have large amounts of data points can often be a problem, which makes all versions of TimeSearcher \cite{Hochheiser:2004, buono:2005, buono:2007} less valuable.
 Consequently, a model-driven system, which requires less data points, is preferred.
-The approach of \cite{ichikawa:2002} could be seen as such system as it utilizes external simulations models.
-However, it is not supporting the modeling process and is therefore only seen as system for result exploration.
-On the other hand, TiMoVa a system, which explicitly provides model parameter selection was proposed from B{\"o}gel et al. \cite{boegl:2013}.
-The system is designed after the Box Jenkins method and is only supporting the model specification and selection process.
+The approach of Ichikawa \cite{ichikawa:2002} could be seen as such system as it utilizes external simulations models.
+However, it is not supporting the modeling process and is therefore only seen as system for trend detection.
+On the other hand TiMoVa \cite{boegl:2013} explicitly provides a model selection tool for traditionally successful ARIMA, AR, MA, etc. models
+As consequence, the system is designed after the Box-Jenkins method and is only supporting the model specification and selection process.
 For model specification, i.e. selection of an appropriate model type and its order, they provide autocorrelation function and partial autocorrelation function plots.
 These plots are also utilized by the analyst to select the model's parameters.
 A big drawback of the system are the assumptions about the preprocessed data. 
 It requires a time series without missing values and only supports univariate analysis.
+
+%TODO add others 
+%TODO tomorrow
+
+\subsection{Correlation Detection\label{subsec:correlation}}
+The idea of peak preservation was inherited in an Motif detection approach \cite{Hao:2012}, where the peak preservation is combined with an automated motif/pattern detection, which includes detecting overlapping patterns and extrapolating the patterns into the future.
+This later version, further addresses the univariate issue and supports multivariate analysis. 
+By adding these additional features to the previously simple peak preserving prediction, the analysts can also answer (Q4), (Q5) and (Q6). 
+A possible application presented in the paper is forecasting the ideal oil well flow pattern as well as analyzing how to recover from drops in flow (outages).   
+%Similar to \cite{buono:2007}, depending on the user's preference, the detected patterns can be aggregated to increase their significance.
+
+
+
+%One goal in time series analysis is detecting patterns.
+%These patterns help analysts to better understand their data and enables them to formulate improved hypotheses for future developments. 
+%Further, they allow analysts to detect unusual occurrences, which makes it possible to spot undesired behaviors in advance and react accordingly. 
+%Such anomalies can include fraud attempts, higher server loads or bad configurations of manufacturing machines.\\
+
+%Otherwise, the system is comparable to \cite{buono:2007}.
+
+
+
+\subsection{Modeling\label{sec:modeling}}
+%%The modeling steps builds upon the previous data preprocessing and feature selection process. 
+%%This assumes the analyst already has an understanding about the data and prepared it for analysis.
+%%Further, he took care of feature generation and feature selection in order to represent the data accordingly. 
+%%During this step, systems support the analyst with e.g. subspace exploration, training set modification, parameter tuning. \cite{Lu:2017}\\
+%An popular approach for general time series analysis is from Buono et al. \cite{buono:2005} and focuses explicitly on automatically finding similar patterns compared to a user specified pattern.
+%The system was built upon TimeSearcher proposed by Hochheiser and Shneiderman \cite{Hochheiser:2004}, which concentrates on high usability even for users without specialized skills such as in statistics.
+%%Based on their idea, Buono et al. continued with using timeboxes, i.e. rectangular regions that filter the data and reduce the scope of each search.
+%%Their updated version adds another variant for pattern search in the remaining data. 
+%%Further, they also allow users to work with long time series of multiple heterogeneous variables. 
+%However, these two version of TimeSearcher are more interested in data exploration and consequently would be located either in the data preprocessing or as supporting tool in the feature engineering step. 
+%%For data exploration the user is initially presented with a multivariable time series viewer, which allows to visually analyze multiple variables in parallel on different levels-of-detail.
+%%In order to detect reoccurring and similar patterns, the user highlights a found pattern within the time series and the system uses a similarity-based search to find other occurrences. 
+%%Therefor, the search space can be limited to only interesting areas.
+%%The initial matches of the given pattern can afterwards be refined to support the analysis goal better. 
+%%This process of returning many results and consequently enable the user to reduce the outcome to his/her liking, can also be found in spatiotemporal approaches (\autoref{sec:spatiotemp}), esp. in the template driven approach of \cite{malik:2014}.
+%%Moreover, TimeSearcher also provides different data transformations to match patterns more easily. 
+%%One drawback of the system is that it cannot deal with missing data points and pattern matching is very depended on the user's chosen parameters.
+%For modeling the updated version of TimeSearcher by Buono et al. \cite{buono:2007} is of greater interest.  
+%For its prediction, it resorts on the similarity-based approach, which was used in the previous version \cite{buono:2005} to detect time series with similar behavior.
+%In order to provide the analyst with an better overall understanding of the selected subset of time series, the system offers a summarized view based on a river plot, which also incorporates confidence bands (bottom right of \autoref{fig:timesearcher}).
+%The actual prediction is computed by extrapolating only those time series, which were identified as similar to the target time series.
+%%As in \cite{buono:2005} the system is meant for users without statistical knowledge.
+%In order enable the analyst to select a better model, the simultaneous preview interface allows to compare multiple parameter choices as well as different modeling techniques, such as smoothing, in parallel (\autoref{fig:timesearcher}). 
+%Given the data-driven nature of the system, this requires the analyst to provide larger datasets compared to a model-driven approach.
+%However, the simultaneous preview interface simplifies the modeling process and makes it accessible to untrained users and allows experienced analysts to get a better insight.
+%
+%\begin{figure}[htb]
+%	\centering
+%	\includegraphics[width=\columnwidth]{TimeSearcher}
+%	\caption{TimeSearcher's \cite{buono:2007} simultaneous preview interface
+%	}
+%	\label{fig:timesearcher}
+%\end{figure}
+%
+%In practical scenarios the requirement to have large amounts of data points can often be a problem, which makes the systems \cite{Hochheiser:2004, buono:2005, buono:2007} less valuable.
+%Consequently, a model-driven system, which requires less data points, is preferred.
+%The approach of \cite{ichikawa:2002} could be seen as such system as it utilizes external simulations models.
+%However, it is not supporting the modeling process and is therefore only seen as system for result exploration.
+%On the other hand, TiMoVa a system, which explicitly provides model parameter selection was proposed from B{\"o}gel et al. \cite{boegl:2013}.
+%The system is designed after the Box Jenkins method and is only supporting the model specification and selection process.
+%For model specification, i.e. selection of an appropriate model type and its order, they provide autocorrelation function and partial autocorrelation function plots.
+%These plots are also utilized by the analyst to select the model's parameters.
+%A big drawback of the system are the assumptions about the preprocessed data. 
+%It requires a time series without missing values and only supports univariate analysis.
 
 
 \subsection{Result Exploration and Validation\label{sec:exploration}}
