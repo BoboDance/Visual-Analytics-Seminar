@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.9)  23 JUL 2018 20:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.9)  24 JUL 2018 11:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -595,85 +595,91 @@ Underfull \hbox (badness 1874) in paragraph at lines 216--225
 tions
  []
 
-<pictures/TimeSearcher.png, id=86, 1139.25626pt x 685.56125pt>
+<pictures/TimeSearcher.png, id=89, 1139.25626pt x 685.56125pt>
 File: pictures/TimeSearcher.png Graphic file (type png)
 
 <use pictures/TimeSearcher.png>
-Package pdftex.def Info: pictures/TimeSearcher.png used on input line 283.
+Package pdftex.def Info: pictures/TimeSearcher.png used on input line 274.
 (pdftex.def)             Requested size: 240.94499pt x 144.9868pt.
  [2 <./pictures/color-band.png>]
-<pictures/KnotLines.png, id=112, 1409.265pt x 520.94624pt>
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
+[][][]\OT1/ptm/m/n/8 (+20) https://www.statista.com/statistics/272014/global-so
+cial-networks-
+ []
+
+<pictures/KnotLines.png, id=118, 1409.265pt x 520.94624pt>
 File: pictures/KnotLines.png Graphic file (type png)
 
 <use pictures/KnotLines.png>
-Package pdftex.def Info: pictures/KnotLines.png used on input line 364.
+Package pdftex.def Info: pictures/KnotLines.png used on input line 344.
 (pdftex.def)             Requested size: 240.94499pt x 89.06047pt.
  [3 <./pictures/TimeSearcher.png> <./pictures/KnotLines.png>] <pictures/Falcon.
-png, id=128, 1617.04124pt x 396.48125pt>
+png, id=136, 1617.04124pt x 396.48125pt>
 File: pictures/Falcon.png Graphic file (type png)
 
 <use pictures/Falcon.png>
-Package pdftex.def Info: pictures/Falcon.png used on input line 390.
+Package pdftex.def Info: pictures/Falcon.png used on input line 505.
 (pdftex.def)             Requested size: 240.94499pt x 59.07637pt.
 
 
-LaTeX Warning: Reference `subsec:pattern' on page 4 undefined on input line 440
+LaTeX Warning: Reference `subsec:pattern' on page 4 undefined on input line 555
 .
 
-<pictures/Hotspot.png, id=155, 1359.0775pt x 686.565pt>
+<pictures/Hotspot.png, id=163, 1359.0775pt x 686.565pt>
 File: pictures/Hotspot.png Graphic file (type png)
 
 <use pictures/Hotspot.png>
-Package pdftex.def Info: pictures/Hotspot.png used on input line 444.
+Package pdftex.def Info: pictures/Hotspot.png used on input line 559.
 (pdftex.def)             Requested size: 240.94499pt x 121.71161pt.
- [4 <./pictures/Falcon.png> <./pictures/Hotspot.png>]
-Underfull \vbox (badness 7649) has occurred while \output is active []
-
-
-<pictures/SOM.png, id=193, 674.52pt x 863.225pt>
+ [4 <./pictures/Falcon.png>]
+<pictures/SOM.png, id=204, 674.52pt x 863.225pt>
 File: pictures/SOM.png Graphic file (type png)
  <use pictures/SOM.png>
-Package pdftex.def Info: pictures/SOM.png used on input line 493.
+Package pdftex.def Info: pictures/SOM.png used on input line 609.
 (pdftex.def)             Requested size: 240.94499pt x 308.35034pt.
 
-[5 <./pictures/SOM.png>] (./Otto_Fabian_TimeSeries.bbl
+[5 <./pictures/Hotspot.png> <./pictures/SOM.png>] (./Otto_Fabian_TimeSeries.bbl
+
 Overfull \hbox (0.53496pt too wide) in paragraph at lines 207--219
 \OT1/ptm/m/n/8 (-20) patterns in multivariate time series[].  []\OT1/ptm/m/it/8
  (-20) Information Visualization[]\OT1/ptm/m/n/8 (-20) , []11(1):71--
  []
 
-
-Underfull \vbox (badness 2503) has occurred while \output is active []
-
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 545.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 545.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 661.
 
-(./Otto_Fabian_TimeSeries.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 545.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 545.
+[7
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 661.
+ (./Otto_Fabian_TimeSeries.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 661.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 661.
 Package rerunfilecheck Info: File `Otto_Fabian_TimeSeries.out' has not changed.
 
-(rerunfilecheck)             Checksum: 04D4A118E8B8077E325E80BFC8DE80FA;518.
+(rerunfilecheck)             Checksum: 4A7601950EFB570B5461290EDB5B9228;520.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 545.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 661.
  ) 
 Here is how much of TeX's memory you used:
- 8691 strings out of 493029
- 131189 string characters out of 6136234
- 265902 words of memory out of 5000000
- 11724 multiletter control sequences out of 15000+600000
- 63955 words of font info for 305 fonts, out of 8000000 for 9000
+ 8709 strings out of 493029
+ 131372 string characters out of 6136234
+ 266691 words of memory out of 5000000
+ 11728 multiletter control sequences out of 15000+600000
+ 64901 words of font info for 312 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,12n,35p,525b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,12n,35p,525b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
@@ -683,10 +689,10 @@ syr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on Otto_Fabian_TimeSeries.pdf (6 pages, 1817442 bytes).
+Output written on Otto_Fabian_TimeSeries.pdf (7 pages, 1819380 bytes).
 PDF statistics:
- 425 PDF objects out of 1000 (max. 8388607)
- 395 compressed objects within 4 object streams
- 53 named destinations out of 1000 (max. 500000)
- 45671 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 444 PDF objects out of 1000 (max. 8388607)
+ 412 compressed objects within 5 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 49767 words of extra memory for PDF output out of 51595 (max. 10000000)
 
