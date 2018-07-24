@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.9)  24 JUL 2018 11:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.9)  24 JUL 2018 19:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -572,74 +572,72 @@ Underfull \hbox (badness 5077) in paragraph at lines 145--146
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 175.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 172.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 175.
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--180
-
- []
-
-<pictures/color-band.png, id=48, 534.99875pt x 318.18875pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 172.
+<pictures/color-band.png, id=40, 534.99875pt x 318.18875pt>
 File: pictures/color-band.png Graphic file (type png)
 
 <use pictures/color-band.png>
-Package pdftex.def Info: pictures/color-band.png used on input line 190.
+Package pdftex.def Info: pictures/color-band.png used on input line 187.
 (pdftex.def)             Requested size: 240.94499pt x 143.30013pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
-Underfull \hbox (badness 1874) in paragraph at lines 216--225
-[]\OT1/ptm/m/n/9 (+20) Visualizing un-cer-tainty was one of the an-a-lyst ques-
-tions
- []
+ <./pictures/color-band.png>]
+Underfull \vbox (badness 2269) has occurred while \output is active []
 
-<pictures/TimeSearcher.png, id=89, 1139.25626pt x 685.56125pt>
+
+<pictures/TimeSearcher.png, id=83, 1139.25626pt x 685.56125pt>
 File: pictures/TimeSearcher.png Graphic file (type png)
 
 <use pictures/TimeSearcher.png>
-Package pdftex.def Info: pictures/TimeSearcher.png used on input line 274.
+Package pdftex.def Info: pictures/TimeSearcher.png used on input line 269.
 (pdftex.def)             Requested size: 240.94499pt x 144.9868pt.
- [2 <./pictures/color-band.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 293--293
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
 [][][]\OT1/ptm/m/n/8 (+20) https://www.statista.com/statistics/272014/global-so
 cial-networks-
  []
 
-<pictures/KnotLines.png, id=118, 1409.265pt x 520.94624pt>
+<pictures/KnotLines.png, id=124, 1409.265pt x 520.94624pt>
 File: pictures/KnotLines.png Graphic file (type png)
 
 <use pictures/KnotLines.png>
-Package pdftex.def Info: pictures/KnotLines.png used on input line 344.
+Package pdftex.def Info: pictures/KnotLines.png used on input line 347.
 (pdftex.def)             Requested size: 240.94499pt x 89.06047pt.
  [3 <./pictures/TimeSearcher.png> <./pictures/KnotLines.png>] <pictures/Falcon.
-png, id=136, 1617.04124pt x 396.48125pt>
+png, id=143, 1617.04124pt x 396.48125pt>
 File: pictures/Falcon.png Graphic file (type png)
 
 <use pictures/Falcon.png>
-Package pdftex.def Info: pictures/Falcon.png used on input line 505.
+Package pdftex.def Info: pictures/Falcon.png used on input line 381.
 (pdftex.def)             Requested size: 240.94499pt x 59.07637pt.
 
+Underfull \hbox (badness 1024) in paragraph at lines 563--570
+\OT1/ptm/m/n/9 (+20) not only tem-po-ral in-for-ma-tion are valu-able, but also
+ spa-tial
+ []
 
-LaTeX Warning: Reference `subsec:pattern' on page 4 undefined on input line 555
-.
 
-<pictures/Hotspot.png, id=163, 1359.0775pt x 686.565pt>
+Underfull \hbox (badness 10000) in paragraph at lines 563--570
+
+ []
+
+<pictures/Hotspot.png, id=176, 1359.0775pt x 686.565pt>
 File: pictures/Hotspot.png Graphic file (type png)
 
 <use pictures/Hotspot.png>
-Package pdftex.def Info: pictures/Hotspot.png used on input line 559.
+Package pdftex.def Info: pictures/Hotspot.png used on input line 593.
 (pdftex.def)             Requested size: 240.94499pt x 121.71161pt.
- [4 <./pictures/Falcon.png>]
-<pictures/SOM.png, id=204, 674.52pt x 863.225pt>
+ [4 <./pictures/Falcon.png> <./pictures/Hotspot.png>] <pictures/SOM.png, id=223
+, 674.52pt x 863.225pt>
 File: pictures/SOM.png Graphic file (type png)
  <use pictures/SOM.png>
-Package pdftex.def Info: pictures/SOM.png used on input line 609.
+Package pdftex.def Info: pictures/SOM.png used on input line 650.
 (pdftex.def)             Requested size: 240.94499pt x 308.35034pt.
 
-[5 <./pictures/Hotspot.png> <./pictures/SOM.png>] (./Otto_Fabian_TimeSeries.bbl
-
+(./Otto_Fabian_TimeSeries.bbl [5 <./pictures/SOM.png>]
 Overfull \hbox (0.53496pt too wide) in paragraph at lines 207--219
 \OT1/ptm/m/n/8 (-20) patterns in multivariate time series[].  []\OT1/ptm/m/it/8
  (-20) Information Visualization[]\OT1/ptm/m/n/8 (-20) , []11(1):71--
@@ -650,36 +648,29 @@ Missing character: There is no ¤ in font ptmr7t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 661.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 706.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 706.
 
-[7
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 661.
- (./Otto_Fabian_TimeSeries.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 661.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 661.
+(./Otto_Fabian_TimeSeries.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 706.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 706.
 Package rerunfilecheck Info: File `Otto_Fabian_TimeSeries.out' has not changed.
 
-(rerunfilecheck)             Checksum: 4A7601950EFB570B5461290EDB5B9228;520.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 661.
+(rerunfilecheck)             Checksum: 369DC734A8A4BCD17EE87047717B8CFA;400.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 706.
  ) 
 Here is how much of TeX's memory you used:
- 8709 strings out of 493029
- 131372 string characters out of 6136234
- 266691 words of memory out of 5000000
- 11728 multiletter control sequences out of 15000+600000
- 64901 words of font info for 312 fonts, out of 8000000 for 9000
+ 8690 strings out of 493029
+ 131176 string characters out of 6136234
+ 262361 words of memory out of 5000000
+ 11723 multiletter control sequences out of 15000+600000
+ 64512 words of font info for 305 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,12n,35p,525b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,12n,35p,426b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
@@ -689,10 +680,10 @@ syr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on Otto_Fabian_TimeSeries.pdf (7 pages, 1819380 bytes).
+Output written on Otto_Fabian_TimeSeries.pdf (6 pages, 1817069 bytes).
 PDF statistics:
- 444 PDF objects out of 1000 (max. 8388607)
- 412 compressed objects within 5 object streams
- 56 named destinations out of 1000 (max. 500000)
- 49767 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 457 PDF objects out of 1000 (max. 8388607)
+ 427 compressed objects within 5 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 49751 words of extra memory for PDF output out of 51595 (max. 10000000)
 

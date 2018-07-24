@@ -1,12 +1,17 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Otto_Fabian_TimeSeries.aux
+Case mismatch error between cite keys Lu:2014 and lu:2014
+---line 70 of file Otto_Fabian_TimeSeries.aux
+ : \citation{Lu:2014
+ :                  }
+I'm skipping whatever remains of this command
 The style file: abbrv-doi-hyperref.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: bibliography.bib
 You've used 31 entries,
             2608 wiz_defined-function locations,
-            822 strings with 12629 characters,
+            821 strings with 12622 characters,
 and the built_in function-call counts, 31201 in all, are:
 = -- 5692
 > -- 973
@@ -45,3 +50,4 @@ warning$ -- 0
 while$ -- 152
 width$ -- 33
 write$ -- 867
+(There was 1 error message)
