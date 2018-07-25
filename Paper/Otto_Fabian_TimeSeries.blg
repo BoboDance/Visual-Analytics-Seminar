@@ -1,53 +1,47 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Otto_Fabian_TimeSeries.aux
-Case mismatch error between cite keys Lu:2014 and lu:2014
----line 70 of file Otto_Fabian_TimeSeries.aux
- : \citation{Lu:2014
- :                  }
-I'm skipping whatever remains of this command
 The style file: abbrv-doi-hyperref.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: bibliography.bib
-You've used 31 entries,
+You've used 32 entries,
             2608 wiz_defined-function locations,
-            821 strings with 12622 characters,
-and the built_in function-call counts, 31201 in all, are:
-= -- 5692
-> -- 973
-< -- 838
-+ -- 1209
-- -- 369
-* -- 1762
-:= -- 4441
-add.period$ -- 99
-call.type$ -- 31
-change.case$ -- 267
+            832 strings with 12927 characters,
+and the built_in function-call counts, 32516 in all, are:
+= -- 5978
+> -- 1001
+< -- 888
++ -- 1270
+- -- 380
+* -- 1834
+:= -- 4630
+add.period$ -- 102
+call.type$ -- 32
+change.case$ -- 275
 chr.to.int$ -- 0
-cite$ -- 31
-duplicate$ -- 509
-empty$ -- 1651
-format.name$ -- 352
-if$ -- 8079
+cite$ -- 32
+duplicate$ -- 520
+empty$ -- 1689
+format.name$ -- 362
+if$ -- 8418
 int.to.chr$ -- 0
-int.to.str$ -- 31
-missing$ -- 33
-newline$ -- 278
-num.names$ -- 62
-pop$ -- 290
+int.to.str$ -- 32
+missing$ -- 34
+newline$ -- 292
+num.names$ -- 64
+pop$ -- 296
 preamble$ -- 1
-purify$ -- 238
+purify$ -- 245
 quote$ -- 0
-skip$ -- 380
+skip$ -- 387
 stack$ -- 0
-substring$ -- 1788
-swap$ -- 164
-text.length$ -- 461
+substring$ -- 1874
+swap$ -- 165
+text.length$ -- 488
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 120
+type$ -- 124
 warning$ -- 0
-while$ -- 152
-width$ -- 33
-write$ -- 867
-(There was 1 error message)
+while$ -- 158
+width$ -- 34
+write$ -- 911

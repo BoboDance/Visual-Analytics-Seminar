@@ -1,5 +1,24 @@
 \begin{thebibliography}{10}
 
+\bibitem{Aigner:2007}
+\href{https://doi.org/10.1016/j.cag.2007.01.030}{W.~Aigner, S.~Miksch,
+  W.~M\"{u}ller, H.~Schumann, and C.~Tominski}.
+\newblock \href{https://doi.org/10.1016/j.cag.2007.01.030}{Visualizing
+  time-oriented data-a systematic view}.
+\newblock \href{https://doi.org/10.1016/j.cag.2007.01.030}{{\em Comput.
+  Graph.}}, \href{https://doi.org/10.1016/j.cag.2007.01.030}{31(3):401--409},
+  \href{https://doi.org/10.1016/j.cag.2007.01.030}{June 2007}.
+  \href{https://doi.org/10.1016/j.cag.2007.01.030}
+{doi: {{%
+10\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}1016\discretionary{/}{%
+}{/}j\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}cag\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}2007\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}01\hspace{.1pt}\discretionary{.}{%
+}{.}\hspace{.4pt}030}}}
+
+
 \bibitem{Andrienko:2005}
 \href{https://doi.org/10.1109/IV.2005.135}{G.~Andrienko and N.~Andrienko}.
 \newblock \href{https://doi.org/10.1109/IV.2005.135}{Visual exploration of the

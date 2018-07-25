@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.9)  24 JUL 2018 19:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.9)  25 JUL 2018 20:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -416,29 +416,29 @@ Package hyperref Info: Option `linktocpage' set `true' on input line 68.
 (./Otto_Fabian_TimeSeries.aux)
 \openout1 = `Otto_Fabian_TimeSeries.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 116.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 116.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 100.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 116.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 100.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
@@ -471,7 +471,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 116.
+LaTeX Info: Redefining \microtypecontext on input line 100.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -487,7 +487,7 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 \big@size=\dimen140
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring OFF on input line 116.
+Package hyperref Info: Link coloring OFF on input line 100.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -497,15 +497,15 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count117
 )
-LaTeX Info: Redefining \ref on input line 116.
-LaTeX Info: Redefining \pageref on input line 116.
-LaTeX Info: Redefining \nameref on input line 116.
+LaTeX Info: Redefining \ref on input line 100.
+LaTeX Info: Redefining \pageref on input line 100.
+LaTeX Info: Redefining \nameref on input line 100.
 
 (./Otto_Fabian_TimeSeries.out) (./Otto_Fabian_TimeSeries.out)
 \@outlinefile=\write3
 \openout3 = `Otto_Fabian_TimeSeries.out'.
 
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 121.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 105.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
@@ -516,9 +516,9 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 121.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 12
-1.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 105.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 10
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -527,118 +527,99 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 12
-1.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 10
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 12
-1.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 10
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 12
-1.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 10
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 121.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 121.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 121.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 121.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 105.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 121.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 121.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 121.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 105.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <9> not available
-(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 121.
+(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 105.
 
-Underfull \hbox (badness 5077) in paragraph at lines 145--146
+Underfull \hbox (badness 5077) in paragraph at lines 131--132
 []\OT1/ptm/m/n/9 (+20) Which lo-cal pat-terns, sea-sonal trends and im-por-tant
 
  []
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 172.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 172.
-<pictures/color-band.png, id=40, 534.99875pt x 318.18875pt>
-File: pictures/color-band.png Graphic file (type png)
-
-<use pictures/color-band.png>
-Package pdftex.def Info: pictures/color-band.png used on input line 187.
-(pdftex.def)             Requested size: 240.94499pt x 143.30013pt.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
- <./pictures/color-band.png>]
-Underfull \vbox (badness 2269) has occurred while \output is active []
-
-
-<pictures/TimeSearcher.png, id=83, 1139.25626pt x 685.56125pt>
+<pictures/TimeSearcher.png, id=45, 1139.25626pt x 685.56125pt>
 File: pictures/TimeSearcher.png Graphic file (type png)
 
 <use pictures/TimeSearcher.png>
-Package pdftex.def Info: pictures/TimeSearcher.png used on input line 269.
+Package pdftex.def Info: pictures/TimeSearcher.png used on input line 183.
 (pdftex.def)             Requested size: 240.94499pt x 144.9868pt.
- [2]
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
-[][][]\OT1/ptm/m/n/8 (+20) https://www.statista.com/statistics/272014/global-so
-cial-networks-
- []
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 185.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-<pictures/KnotLines.png, id=124, 1409.265pt x 520.94624pt>
+
+ <./pictures/TimeSearcher.png>]
+<pictures/color-band.png, id=78, 534.99875pt x 318.18875pt>
+File: pictures/color-band.png Graphic file (type png)
+
+<use pictures/color-band.png>
+Package pdftex.def Info: pictures/color-band.png used on input line 245.
+(pdftex.def)             Requested size: 240.94499pt x 143.30013pt.
+ [2 <./pictures/color-band.png>]
+<pictures/KnotLines.png, id=111, 1409.265pt x 520.94624pt>
 File: pictures/KnotLines.png Graphic file (type png)
 
 <use pictures/KnotLines.png>
-Package pdftex.def Info: pictures/KnotLines.png used on input line 347.
+Package pdftex.def Info: pictures/KnotLines.png used on input line 335.
 (pdftex.def)             Requested size: 240.94499pt x 89.06047pt.
- [3 <./pictures/TimeSearcher.png> <./pictures/KnotLines.png>] <pictures/Falcon.
-png, id=143, 1617.04124pt x 396.48125pt>
+
+<pictures/Falcon.png, id=118, 1617.04124pt x 396.48125pt>
 File: pictures/Falcon.png Graphic file (type png)
 
 <use pictures/Falcon.png>
-Package pdftex.def Info: pictures/Falcon.png used on input line 381.
+Package pdftex.def Info: pictures/Falcon.png used on input line 370.
 (pdftex.def)             Requested size: 240.94499pt x 59.07637pt.
-
-Underfull \hbox (badness 1024) in paragraph at lines 563--570
-\OT1/ptm/m/n/9 (+20) not only tem-po-ral in-for-ma-tion are valu-able, but also
- spa-tial
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 563--570
-
- []
-
-<pictures/Hotspot.png, id=176, 1359.0775pt x 686.565pt>
+ [3 <./pictures/KnotLines.png> <./pictures/Falcon.png>] <pictures/Hotspot.png, 
+id=163, 1359.0775pt x 686.565pt>
 File: pictures/Hotspot.png Graphic file (type png)
 
 <use pictures/Hotspot.png>
-Package pdftex.def Info: pictures/Hotspot.png used on input line 593.
+Package pdftex.def Info: pictures/Hotspot.png used on input line 423.
 (pdftex.def)             Requested size: 240.94499pt x 121.71161pt.
- [4 <./pictures/Falcon.png> <./pictures/Hotspot.png>] <pictures/SOM.png, id=223
-, 674.52pt x 863.225pt>
-File: pictures/SOM.png Graphic file (type png)
- <use pictures/SOM.png>
-Package pdftex.def Info: pictures/SOM.png used on input line 650.
-(pdftex.def)             Requested size: 240.94499pt x 308.35034pt.
 
-(./Otto_Fabian_TimeSeries.bbl [5 <./pictures/SOM.png>]
-Overfull \hbox (0.53496pt too wide) in paragraph at lines 207--219
+<pictures/SOM_SiT.png, id=186, 873.2625pt x 779.91376pt>
+File: pictures/SOM_SiT.png Graphic file (type png)
+
+<use pictures/SOM_SiT.png>
+Package pdftex.def Info: pictures/SOM_SiT.png used on input line 484.
+(pdftex.def)             Requested size: 240.94499pt x 215.18503pt.
+ [4 <./pictures/Hotspot.png> <./pictures/SOM_SiT.png>] (./Otto_Fabian_TimeSerie
+s.bbl
+Overfull \hbox (0.53496pt too wide) in paragraph at lines 226--238
 \OT1/ptm/m/n/8 (-20) patterns in multivariate time series[].  []\OT1/ptm/m/it/8
  (-20) Information Visualization[]\OT1/ptm/m/n/8 (-20) , []11(1):71--
  []
@@ -648,42 +629,41 @@ Missing character: There is no ¤ in font ptmr7t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [5]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 706.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 706.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 541.
 
-(./Otto_Fabian_TimeSeries.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 706.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 706.
+[6
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 541.
+ (./Otto_Fabian_TimeSeries.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 541.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 541.
 Package rerunfilecheck Info: File `Otto_Fabian_TimeSeries.out' has not changed.
 
-(rerunfilecheck)             Checksum: 369DC734A8A4BCD17EE87047717B8CFA;400.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 706.
+(rerunfilecheck)             Checksum: DC2184D15303F88E5EA2B507739DB556;400.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 541.
  ) 
 Here is how much of TeX's memory you used:
- 8690 strings out of 493029
- 131176 string characters out of 6136234
- 262361 words of memory out of 5000000
- 11723 multiletter control sequences out of 15000+600000
- 64512 words of font info for 305 fonts, out of 8000000 for 9000
+ 8691 strings out of 493029
+ 131087 string characters out of 6136234
+ 266319 words of memory out of 5000000
+ 11702 multiletter control sequences out of 15000+600000
+ 56379 words of font info for 303 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,12n,35p,426b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,12n,35p,349b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/u
-syr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/urw/times/utmri8a.pfb>
-Output written on Otto_Fabian_TimeSeries.pdf (6 pages, 1817069 bytes).
+e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
+utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Otto_Fabian_TimeSeries.pdf (6 pages, 1862022 bytes).
 PDF statistics:
- 457 PDF objects out of 1000 (max. 8388607)
- 427 compressed objects within 5 object streams
+ 419 PDF objects out of 1000 (max. 8388607)
+ 394 compressed objects within 4 object streams
  53 named destinations out of 1000 (max. 500000)
- 49751 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 45655 words of extra memory for PDF output out of 51595 (max. 10000000)
 
