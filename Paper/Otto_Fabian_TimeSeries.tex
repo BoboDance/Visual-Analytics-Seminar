@@ -77,7 +77,7 @@
 %% This is how authors are specified in the conference style
 
 %% Author and Affiliation (single author).
-\author{Fabian Otto\thanks{e-mail: fabian.otto@stud.tu-darmstadt.de}}
+\author{Fabian Otto, 2792549\thanks{e-mail: fabian.otto@stud.tu-darmstadt.de}}
 \affiliation{\scriptsize Technische Universit\"at Darmstadt}
 
 %% A teaser figure can be included as follows, but is not recommended since
@@ -113,7 +113,7 @@ Making predictions is a common problem in corporate scenarios as well as in ever
 Corporations need predictions in order to determine e.g. the following day's demand on the market.
 %or which new product has the highest Return on Investment.
 This is also true for the personal life, when buying a new laptop or signing a contract.
-These decisions are easier if there is at least some certainty about the future.\\
+These decisions are easier with at least some certainty about the future.\\
 According to Lu et al. \cite{Lu:2017} predictive analytics is concerned with predicting future outcomes and trends based on past observations.
 %It comprises approaches that includes pattern recognition, extrapolation and algorithmic modeling associated with domain knowledge.
 %Contrary to that, descriptive or prescriptive systems are reactive and provide information after the decision was made or populate decision models respectively.
@@ -128,7 +128,7 @@ According to Lu et al. \cite{Lu:2017} predictive analytics is concerned with pre
 Time series are highly complex, depend on different variables and cannot be easily predicted. 
 Common models to analyze time series are often based on the Box-Jenkins method \cite{box:2015} or on regression \cite{draper:2014}.
 %These automatic approaches provide analysts with forecasts.
-These automatic methods are usually not able to provide analysts with an interpretation of interesting phenomena and analysts cannot easily include their domain knowledge in the forecasting process.
+These automatic methods usually do not enable analysts to include their domain knowledge in the forecasting process and mostly fail to provide an interpretation of interesting phenomena.
 In combination with Visual Analytics, analysts have an interactive solution, which enables them to better answer common questions, such as: 
 \begin{enumerate}
 	\itemsep0em 
@@ -143,10 +143,10 @@ In combination with Visual Analytics, analysts have an interactive solution, whi
 % interactively search for global trends (1) and local cyclic patterns (2), i.e. seasonal effects.
 %This allows them to detect anomalies and turning points, which may change the future direction of the time series.
 %Additionally, analysts can identify important events/periods of time, such as the weeks before Christmas.\\
-This survey will focus on question (Q1) and (Q2) in \autoref{subsec:trend}, (Q3), (Q4) and (Q5) in \autoref{subsec:correlation} as well as on (Q6) in \autoref{subsec:selection}.
+This survey will focus on questions (Q1) and (Q2) in \autoref{subsec:trend}, (Q3), (Q4) and (Q5) in \autoref{subsec:correlation} as well as on (Q6) in \autoref{subsec:selection}.
 (Q7) is addressed throughout all sections.\\
 %Nevertheless, time series prediction is an ambiguous field and some overlap might occur.\\
-Moreover, in some cases additional geospatial information is available and has to be included in the prediction process. 
+Moreover, in some cases additional geospatial information is available and should be included in the prediction process. 
 In spatiotemporal analysis, analysts search for regions with higher than usual event occurrences, called hotspots.
 If hotspots are detected, analysts would like to predict how these regions will develop and where new hotspots may occur.
 Prominent applications areas include: detection of disease outbreaks as well as crime prevention. \\
@@ -178,14 +178,14 @@ The color band display reduces the complexity of the predictive time series to a
 The color band is created by assigning similar predictions to the same cluster, which reveals the overall trend for each cluster.
 %and consequently reducing the time series to a color band, i.e. its key elements and overall trend of each cluster.
 Therefore, the analyst is able to detect discrepancies between the clusters and compare specific predictions with the overall trend. 
-For additional comparison, a matrix based workspace visualizes a set of predictions for different stocks as well as, similar to \textit{TimeSearcher} \cite{buono:2007}, different parameter ranges (e.g. sales organizations). 
-The latter can also help in finding better model (Q6).
+For additional comparison, a matrix based workspace visualizes a set of predictions for different stocks as well as different parameter ranges. 
+The latter can also help in finding a better model (Q6).
 %Here, the different parameter ranges could also support the analyst in answering (Q6).
 Consequently, the analyst can detect trends concerning the whole stock market (Q1).  
 However, in connection with the amount of simulations displayed or the reduced details in the color band display, it might be hard to extract local trends (Q2).
 %Moreover, the color band display lowers the complexity significantly, which complicates local trend detection as well (Q2).
 %Analogous to Lu et al. \cite{lu:2014}, the system is not visualizing any information about the simulations' certainty and reduces the discriminability of important behavior. 
-Further, the system is not visualizing any information about the simulations' certainty, which reduces the discriminability of important behavior. 
+Further, the system is not visualizing any information about the simulations' certainty, which reduces the discriminability of important behavior (Q7). 
 %makes it hard for an analyst to determine, which simulations are important (Q7).
 \begin{figure}[!b]
 	\centering
@@ -200,11 +200,11 @@ In their work, they focus on cell based power consumption data, for which it is 
 %They applied an automated peak preserving smoothing method in order to reduce noise and get a more reliable prediction as well as retain the seasonality of the data.
 The analyst is able to control the influence of more recent measurements, i.e. how far back in time seasonality is considered. 
 Further, the system provides a visualization of its prediction quality on the historical time series given the current model (Q7). 
-It has to be mentioned here, that including peak preservation is sometimes not wanted, as it may induce additional uncertainty for the more important global trend.
+It has to be mentioned here, that including peak preservation is sometimes not wanted, as it may induce additional uncertainty to the global trend.
 %For example when predicting the market's demand, the global trend is often more important and including peaks may induce more uncertainty. 
 %A large drawback of those systems is their univariate focus, therefore they may be insufficient in a lot of practical applications.
 
-Evaluating uncertainty was only indirectly provided by the system of Ichikawa et al. \cite{ichikawa:2002} as a result of simulation overlap.
+Evaluating uncertainty was only indirectly provided by the system of Ichikawa et al. \cite{ichikawa:2002} as a result of simulation overlap and clustering.
 A popular choice to address this problem more thoroughly are ensemble visualizations.
 % which were only partially applied, because the visualization was restricted to the color band display and the analyst was not presented with the certainty per se.
 % based on multiple predictions. 
@@ -212,8 +212,8 @@ The system from K\"opp et al. \cite{koepp:2014} offers a heatmap-based option to
 Their interactive solution enables analysts to comprehensively analyze predictions' certainties with e.g. quantiles, extrema and percentiles. 
 %Further, similar to Ichikawa et al., the analyst is able to detect diverging trends within the given ensembles. 
 Another resembling feature to Ichikawa et al. \cite{ichikawa:2002} is the external source of simulations. 
-Depending on the application area, this can be beneficial or disadvantageous. 
-%Analysts can integrate their existing ensemble, but it is more complicated to begin with if no such analysis environment is present. 
+%Depending on the application area, this can be beneficial or disadvantageous. 
+Analysts can integrate their existing ensemble, but it is more complicated to begin with if no such analysis environment is present. 
 Other ensemble approaches incorporate models explicitly and help in general to explore uncertainty (Q7).
 However, this is beyond the scope of this survey and the reader is encouraged to use this system as an entry point for further research. 
 
@@ -222,11 +222,12 @@ Trends and models for time series are helpful in making predictions.
 However, analysts are often interested in finding correlations in order to predict coherent future events, which allows them to react preemptively. 
 Examples include fraud attempts, higher server loads or predictive maintenance.
 
-A popular approach for pattern discovery in abstract time series analysis is \textit{TimeSearcher} \cite{Hochheiser:2004}, which was extended \cite{buono:2005} to work with multiple heterogeneous variables among other things.
+A popular approach for pattern discovery in abstract time series is \textit{TimeSearcher} \cite{Hochheiser:2004}, which was extended \cite{buono:2005}, among other things, to work with multiple heterogeneous variables.
 \textit{TimeSearcher} focuses on automatically detecting similar occurrences of patterns compared to a user specified pattern as well as high usability even for users without specialized skills, such as in statistics.
 %\textit{TimeSearcher} \cite{Hochheiser:2004, buono:2005, buono:2007} is able to support analyst with this task.
 %The system provides the ability to extract occurrences of patterns, which were specified by the analyst. 
 Combined with the prediction capabilities in a later version \cite{buono:2007}, the analyst is able to find cause-effect relationships or correlations (Q3)(Q4)(Q5).
+
 Equivalent to this, the idea of peak preservation \cite{Hao:2009, Hao:2011} was combined with Motif/Pattern detection \cite{Hao:2012}.
 Unlike \textit{TimeSearcher} \cite{buono:2007} overlapping patterns can be detected and the systems specifically extrapolates these patterns into the future.
 % and does not leave this to the analyst.
@@ -238,7 +239,7 @@ One possible application presented in the paper is forecasting the ideal oil wel
 \begin{figure}[b]
 	\centering
 	\includegraphics[width=\columnwidth]{KnotLines}
-	\caption{KnotLine view of \textit{VAET} \cite{Xie:2014}. 
+	\caption{\textit{KnotLines} view of \textit{VAET} \cite{Xie:2014}. 
 		%		(a) Bar chart for the number of commodities in different categories. (b) The big knot indicates an unusually large number of commodities in a transaction. (c) Detailed information. (d) Statistical information. (e) Sales category legend.
 	}
 	\label{fig:knotlines}
@@ -250,7 +251,7 @@ The difference to other systems can be found in the application area of customer
 %However, the commodities as well as the buyer can vary greatly.
 Predicting behavioral pattern into the future helps analysts to understand contextual connections between multiple transactions of a single seller.
 An exemplary application could be identifying fake transactions or fraud (Q3).
-For analysis the system employs an iterative process, which was also used in the model selection system for social media data \cite{koepp:2014}.
+For analysis the system employs an iterative process.
 An overview component proposes possible salient transactions based on an automatic saliency prediction, whereas a detailed view shows further information for a selected transaction.
 %An overview component proposes possible salient transactions
 %Therefor, a decision tree learner calculates a saliency score for each transaction and a certain analysis task.
@@ -258,8 +259,8 @@ An overview component proposes possible salient transactions based on an automat
 %The latter is difficult to address by a decision tree, hence the systems harnesses the transaction frequency of a seller in a user defined time interval.
 %Consequently, the saliency scores are displayed in a time-of-saliency map with an user adjustable level-of-detail. 
 %A detailed view is used to gain more insight in specific transactions, which were selected by the analyst in the overview.
-For the detailed view, a musical notation inspired visual metaphor, called KnotLines (\autoref{fig:knotlines}), was introduced.
-KnotLines enables the analyst to easily assess important information, such as the amount of transactions, payment or relationships other time. 
+For the detailed view, a musical notation inspired visual metaphor, called \textit{KnotLines}  (\autoref{fig:knotlines}), was introduced.
+\textit{KnotLines}  enables the analyst to easily assess important information, such as the amount of transactions, payment or relationships other time. 
 Consequently, the analyst can identify contextual correlations (Q4) of transactions and find salient transactions, which are reported back to the overview. 
 With this iterative process, analysts are able to narrow down their search to important temporal patterns, which enable them to detect fraud or similar attempts in advance. 
 It is also possible to adapt this idea to different application scenarios such as predictive maintenance as well as outage forecasts for data centers or oil platforms.
@@ -271,15 +272,15 @@ Albeit, the current version of the system is highly optimized for the sales use 
 %The identified salient transactions are fed back to decision tree learner, which changes the predictions of the unknown transactions.
 Another drawback of the system is, it requires annotated training data for its automated saliency proposals, which introduces additional effort.
 
-Another specialized system is Falcon \cite{steed:2017}, which focuses on detecting correlative patterns in log and imagery data from 3D printers, including missing values.
+Another specialized system is \textit{Falcon}  \cite{steed:2017}, which focuses on detecting correlative patterns in log and imagery data from 3D printers, including missing values.
 % which is highly irregular, complex and includes missing values.
 Unlike the other systems, this Visual Analytics tool is designed from a manufacturing standpoint to increase production efficiency or to discover defects and system performance issues.
 %The visualization of the system is based on the visual information seeking strategy.
 %The system provides different line plots for each variable with individual level-of-detail control and filtering including an interactive statistical view (\autoref{fig:falcon}).
-Falcon visualizes all variables with corresponding statistical information independently (\autoref{fig:falcon}). 
+\textit{Falcon}  visualizes all variables with corresponding statistical information independently (\autoref{fig:falcon}). 
 Consequently, multiple different variables can be examined simultaneously  on difference scales by the analyst in order to find correlations (Q4).
-Falcon also offers a new visualization technique, called waterfall visualization, to combine overview and detailed view, which allows to find anomalies or trends (Q1)(Q2)(Q3). 
-This idea is resembling to the color charts by Ichikawa et al. \cite{ichikawa:2002}.
+\textit{Falcon}  also offers a new visualization technique, called waterfall visualization, to combine overview and detailed view, which allows to find anomalies or trends (Q1)(Q2)(Q3). 
+This idea shows a resemblance to the color charts by Ichikawa et al. \cite{ichikawa:2002}.
 %Further, a comparative view is provided to analyze different variables of multiple configurations, which also includes pattern matching capabilities. 
 %With the application of information scent, the system encodes quantitative values from similarity and statistical methods in the visualization in order to highlight relationships and reduce the search space. 
 From an operational point of view, the system offers, similar to \textit{VAET} \cite{Xie:2014}, an user driven analysis and helps to detect and highlight univariate and multivariate patterns from different angles.
@@ -287,7 +288,7 @@ From an operational point of view, the system offers, similar to \textit{VAET} \
 %Through the aggregation of bins, a higher level-of-detail abstraction can be achieved. 
 %The above parts of the system can be applies well to other problem ares, however they also included visualizations specifically for the analysis of 3D printer data.
 %One of those is a segmented time series view, which partitions a selected time series of a variable and also visualizes the images of the printing process next to it. 
-Steed et al. were supporting a universal approach for Falcon to make it applicable for different domains. 
+The authors were supporting a universal approach for \textit{Falcon}  to make it applicable for different domains. 
 However, to support their specific analysis task, they included some non-generalizing functionalities. 
 %By providing a reference time series, the system computes the similarity/dissimilarity of both series.
 Moreover, they enable the analyst to compare the 3D printer time series to a historical/user-defined time series. 
@@ -300,27 +301,26 @@ Currently the system does not support provenance information and the similarity/
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=\columnwidth]{Falcon}
-	\caption{Time series visualization of one variable from Falcon \cite{steed:2017}.
+	\caption{Time series visualization of one variable from \textit{Falcon}  \cite{steed:2017}.
 	}
 	\label{fig:falcon}
 \end{figure}
 
-Unlike \textit{TimeSearcher} \cite{buono:2007} or the peak preservation approach \cite{Hao:2012}, \textit{VAET} \cite{Xie:2014} and Falcon \cite{steed:2017} do not incorporate an automatic prediction functionality.
+Unlike \textit{TimeSearcher} \cite{buono:2007} or the peak preservation approach \cite{Hao:2012}, \textit{VAET} \cite{Xie:2014} and \textit{Falcon}  \cite{steed:2017} do not incorporate an automatic prediction functionality.
 They only assist analysts in examining time series, so that they can extract information about future behavior, correlation and cause-effect relationships  (Q3)(Q4)(Q5). 
 %Nevertheless, this allows them to provide better support to answer (Q3), (Q4), (Q5) and detect cause-effect relationships, which is typically not possible with other systems. 
 
 Other application, which specifically focus on pattern detection can be found for patient treatment plans \cite{Gschwandtner:2011} or climate research \cite{Kehrer:2008}.
 Whereas, the latter can also be interpreted as spatiotemporal as it detects regions in the atmosphere, which indicate climate change.
-Related to the focus of Hao et al. \cite{Hao:2009, Hao:2011}, Janetzko et al. \cite{janetzko:2014} and \textit{LiveRAC} \cite{McLachlan:2008} focus on predictive maintenance in data centers.
+Related to the focus of Hao et al. \cite{Hao:2009, Hao:2011}, Janetzko et al. \cite{janetzko:2014} and \textit{LiveRAC} \cite{McLachlan:2008} can be used for predictive maintenance in data centers.
 %Additionally, \textit{LiveRAC} was developed for large scale application areas. 
 %Related to the focus of Hao et al. \cite{Hao:2009, Hao:2011}, Janetzko et al. \cite{janetzko:2014} focuses on power consumption in data centers, more specifically on anomaly detection of the corresponding time series.
-%In the same application context is \textit{LiveRAC} from McLachlan et al. \cite{McLachlan:2008}, which is supporting, similar to Falcon \cite{steed:2017},  large scale time series, in particular it was developed for large scale systems management of network devices.
-Additionally, \textit{LiveRAC} was developed for high scalability, which is an issue most other systems are not able to handle properly.
+%In the same application context is \textit{LiveRAC} from McLachlan et al. \cite{McLachlan:2008}, which is supporting, similar to \textit{Falcon}  \cite{steed:2017},  large scale time series, in particular it was developed for large scale systems management of network devices.
+Additionally, \textit{LiveRAC} was developed for high scalability, which is an issue for most other systems.
+%are not able to handle properly.
 %Scalability is an issue, which all other systems are not able to handle properly.
-Falcon \cite{steed:2017} is the only other system in this survey to provide some scalability, although in a different application area. 
+\textit{Falcon}  \cite{steed:2017} is the only other system in this survey to provide some scalability, although in a different application area. 
 These system were just described shortly as they only touch the topic of the survey peripherally, but should provide the reader with a entry point for further research.
-
-
 
 \subsection{Model Selection\label{subsec:selection}}
 %Model selection is the closest related to applying models.
@@ -328,7 +328,7 @@ These system were just described shortly as they only touch the topic of the sur
 Analyst are often interested in creating a model, which formalizes trends and correlations.
 Further, the model can be used in automatic systems as well as by unexperienced users once it is defined. 
 However, automatically generated or black box models limit the analyst in including already discovered domain knowledge. 
-Therefore, model selection approaches want to support analysts in finding the best model by including domain knowledge. 
+Therefore, Visual Analytics approaches want to assist analysts in finding the best model by including domain knowledge. 
 %More precisely, during model selection the system supports the analyst with e.g. subspace exploration, training set modification, parameter tuning \cite{Lu:2017}.
 
 %A popular approach for pattern discovery in abstract time series analysis is \textit{TimeSearcher} \cite{Hochheiser:2004}, which was extended \cite{buono:2005} to work with multiple heterogeneous variables among other things.
@@ -338,15 +338,17 @@ Therefore, model selection approaches want to support analysts in finding the be
 The previously mentioned \textit{TimeSearcher} \cite{Hochheiser:2004, buono:2005} is popular for data exploration in general.
 %and consequently would be located before the model selection step to provide the analyst with a better understanding of the data. 
 To assist the model selection process, the third version of \textit{TimeSearcher} \cite{buono:2007} is providing additional features.  
-These additional features include an actual prediction functionality and a preview interface with different parameter selection tools.
+These additional features include an actual prediction functionality as well as a preview interface with different parameter selection tools.
 For the prediction, \textit{TimeSearcher} resorts to the similarity-based approach, which was used in the previous versions \cite{buono:2005, Hochheiser:2004}.
 %In order to allow the analyst to judge the current model selection more profoundly, the system offers a river plot, which also incorporates confidence bands (\autoref{fig:timesearcher}).
 %In order to provide the analyst with a better understanding of the selected subset of time series, the system offers a summarized view based on a river plot, which also incorporates confidence bands (bottom right of \autoref{fig:timesearcher}).
-For the prediction, only time series, which were identified as similar to the target time series, are extrapolated with the currently selected parameters.
-To select a better model, the preview interface allows the analyst to compare multiple parameter choices and different modeling techniques in parallel (\autoref{fig:timesearcher}).
-Similar to the color bands \cite{ichikawa:2002}, river plots help to reduce occlusions as a result of visualizing multiple time series.
-One drawback of the system is, it requires the analyst to provide large datasets in order to make the similarity-based approach work.
-Further, the similarity based approach might also not be able to represent more complex behavior.
+Only time series, which were identified as similar to the target time series, are extrapolated.
+To select a better model, the preview interface allows analysts to compare multiple parameter choices and different modeling techniques in parallel (\autoref{fig:timesearcher}).
+River plots help to reduce occlusions, which arise from visualizing multiple time series.
+Parameter comparison as well as occlusion reduction can also be found from Ichikawa et al. \cite{ichikawa:2002}.
+%Similar to the work from Ichikawa et al. \cite{ichikawa:2002}, 
+One drawback of \textit{TimeSearcher} is, it requires the analyst to provide large datasets in order to make the similarity-based approach work.
+Further, the similarity based approach might not be able to represent more complex behavior.
 %Further, the actual prediction is only extrapolating mean of a data subset and thus might not be able to represent more complex behavior. 
 However, the simultaneous preview interface simplifies the modeling process, makes it accessible to untrained users and allows experienced analysts to gain more insight.
 
@@ -369,12 +371,12 @@ Thereby, the analyst is guided during model type and order selection as well as 
 %The provided visualizations are utilized by the analyst to select the model's parameters.
 %Validation can be done, besides the interactive visualization of the prediction and its certainty, as described in \autoref{subsec:trend}, by different residual analysis plots and key figures.
 Validation is done with the help of residual analysis plots and key figures.
-Moreover, their system evaluation revealed that an actual prediction functionality would assist the validation further.
+Moreover, the authors system evaluation revealed that an actual prediction functionality would assist the validation even further.
 %Moreover, during their evaluation, the authors found that an actual prediction functionality would provide additional value throughout the model selection process.
-Therefore, B\"ogel et al. \cite{boegl:2014} extended \textit{TiMoVA} by adding a forecast visualization, which supplies the analyst with real time prediction updates corresponding to the conducted changes.
+As a result, B\"ogel et al. \cite{boegl:2014} extended \textit{TiMoVA} by adding a forecast visualization, which supplies the analyst with real time prediction updates corresponding to the conducted changes.
 Equivalent to \textit{TimeSearcher} \cite{buono:2007}, uncertainty is expressed with confidence bands. 
 Additionally, the difference between true and predicted values as well as the direction (positive or negative) is visualized.
-Thereby, the analyst can judge if the model is constantly over- or underestimating the time series as well as how long and often this occurs.
+Thus, the analyst can judge if the model is constantly over- or underestimating the time series as well as how long and often this occurs.
 %This allows the analyst to adjust different model parameters and see real time changes in the corresponding prediction visualizations.
 Consequently, the analyst gets an improved feedback about the adequateness and can
 simultaneously use the updated visualization to search for global or local trends (Q1)(Q2).
@@ -382,15 +384,16 @@ A big drawback of the general system are its assumptions about the preprocessed 
 It requires a time series without missing values and only supports univariate analysis.
 
 %Apart from Box-Jenkins approaches, regression models are a common choice. 
-With a growing social media use, social media platforms may contain highly relevant information for predictions. 
-Motivated by this, Lu et al. \cite{lu:2014} proposed a model selection framework including mainly social media information. 
+With growing social media use, social media platforms contain highly relevant information for predictions. 
+Motivated by this, Lu et al. \cite{lu:2014} proposed a framework based on social media information. 
 Their framework also offers other functionalities such as sentiment analysis, however, for this survey, the focus is only on the regression model selection feature.
-Similar to \textit{TimeSearcher} \cite{buono:2007}, they focus on users without prior knowledge and enable them to validate the model on similar instances, comparable to Falcon \cite{steed:2017}. 
+Similar to \textit{TimeSearcher} \cite{buono:2007}, they focus on users without prior knowledge and enable them to validate the model on similar instances, comparable to \textit{Falcon}  \cite{steed:2017}. 
 Analogous to \textit{TiMoVA}'s extension \cite{boegl:2014}, they offer visualizations to evaluate the degree of over- or underestimating similar instances.
 However, analogous to Ichikawa et al. \cite{ichikawa:2002}, this uncertainty is not directly visualized together with the forecast, such as in \textit{TiMoVA} \cite{boegl:2013} and \textit{TimeSearcher} \cite{buono:2007}.
 Further, the system incorporates an iterative feature selection process in the framework, which was not provided by \textit{TimeSearcher} \cite{buono:2007} or \textit{TiMoVa} \cite{boegl:2013}.
+A similar iterative process can also be found in \textit{VAET} \cite{Xie:2014}.
 % which allows the analyst to trade-off between more training samples and more features. 
-This process assists the analyst in creating multiple different and improved models, e.g. better generalization as a result of only relevant features.
+The iterative process assists the analyst in creating multiple different and improved models, e.g. better generalization as a result of only relevant features.
 For unexperienced users, adjustable baseline models, created from known predictive features, are provided as entry point.
 % which can then be modified by changing parameters, features, etc.
 The authors state as limitations that the final model is not able to detect cause-effect relationships (Q3)(Q4)(Q5). 
@@ -398,13 +401,13 @@ Further, the application scenarios presented in the paper are only predictions o
 
 \section{Spatial Time Series\label{sec:spatiotemp}}
 The previous section presented an overview of systems for abstract time series analysis. 
-However, for other application areas, such as crime prevention as well as emergency and epidemic intelligence, not only temporal information are valuable, but also geospatial information.
+Albeit, for other application areas, such as crime prevention as well as emergency and epidemic intelligence, not only temporal information are valuable, but also geospatial information.
 %Typically, spatial information have a hierarchical categorization structure, which can be filtered.
 Aigner et al. \cite{Aigner:2007} state spatial data was formed into a spatial layout by natural conditions or model assumptions.
 %Further, the data categories are processed either as aggregated time series over a spatial location (e.g. county, zip code, collection station) or represent a spatial snapshot of a small time aggregate (e.g., day, week).
 Andrienko et al. \cite{Andrienko:2008, Andrienko:2010:Space} found that geospatial analysis has a higher complexity and automated methods cannot adequately solve this task. 
 It requires domain knowledge from a human analyst in order to solve these problems comprehensively.
-However, as a result of the data's high dimensionality, an analyst needs support from Visual Analytics systems.
+However, as a result of high dimensional data, an analyst needs support from Visual Analytics systems.
 
 Andrienko et al. \cite{Andrienko:2010} include spatial dimensions, but their analysis is largely based on abstract time series compared to the following approaches.
 Similar to the peak preserving approach from Hao et al. \cite{Hao:2012}, they ensure temporal peaks are represented in the prediction. 
@@ -420,7 +423,7 @@ This allows the analyst to quickly assess the current situation.
 %Further, the user is able to apply filtering on a fine and coarse-grained level. 
 Further, the system differentiates between the temporal and the geospatial prediction.
 %The time series prediction is achieved by cumulative summation or a Seasonal Trend decomposition based on locally weighted regression.
-For multivariate temporal data, each event category is modeled as a separate time series signal and subsequently forecast. 
+For multivariate temporal data, each event category is modeled as a separate time series signal and is subsequently forecast. 
 %Equivalent to the time series prediction, the granularity/level of aggregation (e.g. state, county, etc.) for geospatial predictions can be adjusted by the user.
 For geospatial predictions, the system utilizes density estimation to determine the spatial distribution of the temporal prediction. 
 %utilizes a kernel density estimation, which allows to display the spatiotemporal distribution on a fine-grained level.
@@ -444,20 +447,21 @@ This is also sent to the analyst as alert in order to analyze the occurrence fur
 %allows users to filter data.
 %Additionally, the system also uses cumulated summation and Kernel Density Estimation. 
 %The major difference is, this work 
-Maciejewski et al. \cite{maciejewski:2010} focuses on finding and understanding patterns, rather than only predicting them.
+Maciejewski et al. \cite{maciejewski:2010} focus on finding and understanding patterns, rather than only predicting them.
 For this purpose, the system establishes temporal contour maps, which allow the analyst to view shifting hotspots across time and analyze the spatial movements of trends and patterns over this period.
-Further, the system allows to search for correlations (Q3)(Q4) between multiple variables via overlaying contour maps, heat maps and/or including height. 
+Further, the system allows to search for correlations (Q4) between multiple variables via overlaying contour maps, heat maps and/or including height. 
 However, one issue with this visualization is, it only works in a three dimensional variable space.
 %and cannot help to find correlations in a higher dimensional space. 
-Moreover, in both systems, aggregating too many data points, may lead to largely exaggerated hotspots or an uniform surface. 
+Moreover, in both systems from Maciejewski et al. \cite{maciejewski:2010, maciejewski:2011}, aggregating too many data points, may lead to largely exaggerated hotspots or an uniform surface. 
 
-Recent work from Malik et al. \cite{malik:2014} focuses, comparable to the preview interface of \textit{TimeSearcher} \cite{buono:2005} and the baseline models from the model selection framework \cite{lu:2014}, on an environment, which allows non statistic experts to utilize their domain expertise.
+Recent work from Malik et al. \cite{malik:2014} focuses, comparable to \textit{TimeSearcher} \cite{buono:2005} and the model selection framework \cite{lu:2014}, on an environment, which allows non statistic experts to utilize their domain expertise.
 Therefore, unlike Maciejewski et al. \cite{maciejewski:2011}, the goal is to provide additional guidance for domain experts in order to improve their analysis.
 Geospatial and temporal scale templates provide the analyst with a starting point and avoid searching through the complete parameter space.
+This can be seen similar to the preview interface of \textit{TimeSearcher} \cite{buono:2005} and the baseline models from Lu et al. \cite{lu:2014}.
 Temporal templates follow the idea of peak preservation, as in the work of Hao et al. \cite{Hao:2012}.
 Further, the analyst is able to interactively change the initial templates to include e.g. police beats.
 %This motivation is equivalent to the preview interface in \textit{TimeSearcher} \cite{buono:2007} or the baseline models from the model selection framework \cite{lu:2014}.
-Analogous to Maciejewski et al. \cite{maciejewski:2011, maciejewski:2010}, the systems is using the same separated approach in order to predict time and space.
+Analogous to Maciejewski et al. \cite{maciejewski:2011, maciejewski:2010}, the system is using the same separated approach in order to predict time and space.
 %the system applies seasonal trend decomposition based on locally weighted regression and Kernel Density Estimation for its predictions.
 %One issue which was identified by Malik et al. in earlier work from Maciejewski et al. \cite{maciejewski:2011} was that domain experts need additional guidance in order to improve their analysis.
 %For the geospatial templates, the system separates the space in subregions and filters for regions, which show a high predicted activity and provide sufficient data. 
@@ -476,14 +480,14 @@ The more recent approach is using feature images and index images (\autoref{fig:
 %Feature images do not represent detailed information, they solely display the relative magnitude of the attribute, i.e. different attributes can have different scales, therefore they cannot be used for attribute comparison and only give an overview.
 %The implementation is done by either maps and multi-attribute mosaics for spatial data or temporal mosaics for temporal data (\autoref{fig:som} left and right).
 %Feature images are used in order to analyze the magnitude of attributes.
-Spatial data in feature images is represented as map and temporal data as temporal mosaic, which has a large correspondence to the color charts of Ichikawa et al. \cite{ichikawa:2002} and the waterfall visualization of Falcon \cite{steed:2017}.
+Spatial data in feature images is represented as map and temporal data as temporal mosaic, which has a large correspondence to the color charts of Ichikawa et al. \cite{ichikawa:2002} and the waterfall visualization of \textit{Falcon}  \cite{steed:2017}.
 %Index images show either the temporal or spatial elements, which provide the data source for one SOM matrix cell, depending on the analysis context.
 %More precisely, a black cell or territory compartment is contributing to the visualization of the above feature image.  
-In order to enable the analyst to find correlations (Q3)(Q4), a SOM cell matrix (\autoref{fig:som}), comparable to the matrix approach from Ichikawa et al. \cite{ichikawa:2002}, with different feature images and index images is displayed.
+In order to enable the analyst to find correlations (Q4), a SOM cell matrix (\autoref{fig:som}), comparable to the matrix approach from Ichikawa et al. \cite{ichikawa:2002}, with different feature images and index images is displayed.
 %Additionally, an aggregative view provides an overview of space or time.
 Additionally, a second visualization aggregates the index images to display the respective other dimension.
 This allows the analyst to determine at which time a certain spatial cell is present or at which location a certain temporal cell occurs.
-The temporal aggregation shows again a similar structure as the color charts of Ichikawa et al. \cite{ichikawa:2002} and the waterfall visualization of Falcon \cite{steed:2017}.
+The temporal aggregation shows again a similar structure as the color charts of Ichikawa et al. \cite{ichikawa:2002} and the waterfall visualization of \textit{Falcon}  \cite{steed:2017}.
 The evaluation of the system shows that it is applicable for detecting expected as well as unexpected results.
 This allows analysts to either find evidence, which supports their previously formed hypothesis, or discover new connections, which enable them to make assumptions about future events. 
 
@@ -524,19 +528,19 @@ This can help to increase situational awareness of local events as well as provi
 \section{Summary and Conclusion}
 Time series prediction has two major directions: abstract and spatiotemporal.
 Abstract time series analysis mainly follows interactive approaches, which
-support the analyst in trend detection, model selection or correlation detection. 
-Supportive features in this context are e.g. the simultaneous preview interface \cite{buono:2007}, the comparative variable view \cite{steed:2017} or KnotLines \cite{Xie:2014}.
+support the analyst in trend detection, correlation detection and model selection. 
+Supportive features in this context are e.g. the simultaneous preview interface \cite{buono:2007}, the comparative variable view \cite{steed:2017} or \textit{KnotLines}  \cite{Xie:2014}.
 They enable the analyst to gain more knowledge about the data, to generate hypothesis and to predict future developments or anomaly occurrences.
 Spatiotemporal time series add another important dimension, which makes automated analysis more complicated. 
 Those systems have to enable the user to select spatial and temporal resolution.
 The system of Malik et al. \cite{malik:2014} even suggests different templates to make the systems more accessible to domain experts.\\
-One important drawback most systems, besides Falcon \cite{steed:2017} and \textit{LiveRAC} \cite{McLachlan:2008}, have, is the missing scalability. 
+One important drawback most systems, besides \textit{Falcon}  \cite{steed:2017} and \textit{LiveRAC} \cite{McLachlan:2008}, have, is the missing scalability. 
 Further, none of the approaches presented in this survey was able to provide a solution to high dimensional outputs, e.g. predicting the demand for multi-product companies, customer-to-customer online platforms, etc.
 In contrast to this, sparse data, in connection with filtering or increasing the resolution, was only addressed by Malik et al. \cite{malik:2014} using neighboring areas.
 Moreover, most systems have strong assumptions about the quality of the data e.g. no missing values.
 On the other hand, current Visual Analytics system offer a broad range of application areas including manufacturing, medical, environmental and social media oriented forecasts.
 Additionally, different systems address different levels of the analyst's competence.
-Uncertainty was addresses by some of the systems, but only the ensemble approach \cite{koepp:2014} offered multiple analysis options.
+Uncertainty was addresses by some of the systems, but only the ensemble approach \cite{koepp:2014} offered in-depth analysis options.
 Thus, future work should address higher dimensional outputs and aim for solutions, which reasonably handle missing values, outliers or data quality in general.
 Combining this with ensemble methods can help to evaluate uncertainty better and increase the robustness of predictions.
 %more combined work with time series prediction and ensemble methods, which additionally might provide solutions to deal with sparse and dense data sets.
